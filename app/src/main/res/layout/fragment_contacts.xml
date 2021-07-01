@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contacts">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:background="@color/colorBtn" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="38dp"
+        android:foregroundGravity="center"
+
+        android:src="@mipmap/ic_cont_pizza" />
+
+
+    <Button
+        android:id="@+id/btn_telegram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="401dp"
+        android:background="@color/white"
+        android:onClick="TelClick"
+
+
+        android:text="@string/btn_tel"
+        android:fontFamily="@font/montserrat_bold"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:icon="@drawable/ic_telegram1" />
+
+    <Button
+        android:id="@+id/btn_WhatsApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="325dp"
+        android:background="@color/white"
+        android:onClick="WhatsClick"
+
+
+        android:text="@string/btn_whats"
+        android:textAllCaps="false"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/black"
+        app:icon="@drawable/ic_whatsapp"
+        app:iconSize="45dp" />
+
+    <Button
+        android:id="@+id/btn_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="247dp"
+        android:background="@color/white"
+
+
+        android:onClick="EmailClick"
+        android:text="@string/btn_email"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_bold"
+        app:icon="@drawable/ic_email"
+        app:iconSize="45dp" />
+
+    <TextView
+        android:id="@+id/tele_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="354dp"
+
+        android:layout_marginBottom="-62dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/tele_help"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tele_help2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="400dp"
+
+        android:layout_marginBottom="-63dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/number"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="20sp" />
+
+</RelativeLayout>

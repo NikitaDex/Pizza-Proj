@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".cupons" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="60sp"
+        android:text="@string/couponsText"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/cuponsPlain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/textView3"
+        android:backgroundTint="@color/colorTextHide"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="100sp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_actv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cuponsPlain"
+        android:layout_marginHorizontal="100sp"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/colorBtn"
+        android:text="@string/couponsBtn" />
+</RelativeLayout>
