@@ -7,7 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Главная</string>
+    <string name="menu_home">Меню</string>
     <string name="menu_promotions">Акции</string>
     <string name="menu_coupons">Купоны</string>
     <string name="menu_basket">Корзина</string>
