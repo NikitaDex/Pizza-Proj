@@ -1,6 +1,240 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".personal"/>
+    tools:context=".personal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="793dp">
+
+        <Button
+            android:id="@+id/my_order"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="Мои заказы"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.029"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.291" />
+
+        <Button
+            android:id="@+id/important"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="Избарнное"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.029"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428" />
+
+        <Button
+            android:id="@+id/my_cupons"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="Мои купоны"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.029"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.359" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="192dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.949"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.511" />
+
+        <EditText
+            android:id="@+id/card"
+            android:layout_width="162dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.949"
+            app:layout_constraintVertical_bias="0.777" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="170dp"
+            android:layout_height="38dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Адрес доставки :"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/address"
+            app:layout_constraintHorizontal_bias="0.029"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.519" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="202dp"
+            android:layout_height="38dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Электронная почта :"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/address"
+            app:layout_constraintHorizontal_bias="0.029"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="110dp"
+            android:layout_height="38dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Телефон :"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/address"
+            app:layout_constraintHorizontal_bias="0.029"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.687" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="202dp"
+            android:layout_height="38dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Электронная карта :"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/address"
+            app:layout_constraintHorizontal_bias="0.029"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.781" />
+
+        <EditText
+            android:id="@+id/Number"
+            android:layout_width="247dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.949"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.682" />
+
+        <EditText
+            android:id="@+id/EmailAddress"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.949"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintVertical_bias="0.593" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.028"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.055"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="103dp"
+            android:layout_height="37dp"
+            android:text="ФИО"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.535"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.079"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="156dp"
+            android:layout_height="54dp"
+            android:text="Дата рождения"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.647"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.15" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Выйти из аккаунта"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.029"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.877" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

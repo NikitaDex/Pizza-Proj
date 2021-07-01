@@ -1716,6 +1716,7 @@ int drawable ic_mtrl_chip_checked_circle 0x7f080075
 int drawable ic_mtrl_chip_close_circle 0x7f080076
 int drawable ic_person 0x7f080077
 int drawable ic_promotions 0x7f080078
+int drawable ic_spoon 0x7f0800a1
 int drawable ic_telegram 0x7f080079
 int drawable ic_telegram1 0x7f08007a
 int drawable ic_telegram12_foreground 0x7f08007b
@@ -1762,9 +1763,11 @@ int id ALT 0x7f0a0000
 int id BOTTOM_END 0x7f0a0001
 int id BOTTOM_START 0x7f0a0002
 int id CTRL 0x7f0a0003
+int id EmailAddress 0x7f0a01f9
 int id FUNCTION 0x7f0a0004
 int id META 0x7f0a0005
 int id NO_DEBUG 0x7f0a0006
+int id Number 0x7f0a01fa
 int id SHIFT 0x7f0a0007
 int id SHOW_ALL 0x7f0a0008
 int id SHOW_PATH 0x7f0a0009
@@ -1828,6 +1831,7 @@ int id action_text 0x7f0a0042
 int id actions 0x7f0a0043
 int id activity_chooser_view_content 0x7f0a0044
 int id add 0x7f0a0045
+int id address 0x7f0a01ed
 int id alertTitle 0x7f0a0046
 int id aligned 0x7f0a0047
 int id all 0x7f0a0048
@@ -1864,10 +1868,12 @@ int id btn_plus3 0x7f0a0066
 int id btn_plus4 0x7f0a0067
 int id btn_plus5 0x7f0a0068
 int id btn_telegram 0x7f0a0069
+int id button4 0x7f0a01fe
 int id buttonPanel 0x7f0a006a
 int id cache_measures 0x7f0a006b
 int id cancel_action 0x7f0a006c
 int id cancel_button 0x7f0a006d
+int id card 0x7f0a01ee
 int id center 0x7f0a006e
 int id center_horizontal 0x7f0a006f
 int id center_vertical 0x7f0a0070
@@ -1978,7 +1984,9 @@ int id ignore 0x7f0a00d8
 int id ignoreRequest 0x7f0a00d9
 int id image 0x7f0a00da
 int id imageView 0x7f0a00db
+int id imageView2 0x7f0a01fb
 int id imageView3 0x7f0a00dc
+int id important 0x7f0a01f0
 int id info 0x7f0a00dd
 int id invisible 0x7f0a00de
 int id inward 0x7f0a00df
@@ -2056,7 +2064,8 @@ int id mtrl_picker_text_input_range_start 0x7f0a0126
 int id mtrl_picker_title_text 0x7f0a0127
 int id mtrl_view_tag_bottom_padding 0x7f0a0128
 int id multiply 0x7f0a0129
-int id nav_basket 0x7f0a012a
+int id my_cupons 0x7f0a01f2
+int id my_order 0x7f0a01f3
 int id nav_contacts 0x7f0a012b
 int id nav_controller_view_tag 0x7f0a012c
 int id nav_cupons 0x7f0a012d
@@ -2200,9 +2209,15 @@ int id textSpacerNoTitle 0x7f0a01b6
 int id textStart 0x7f0a01b7
 int id textTop 0x7f0a01b8
 int id textView 0x7f0a01b9
+int id textView10 0x7f0a01f5
+int id textView11 0x7f0a01fc
+int id textView12 0x7f0a01fd
 int id textView2 0x7f0a01ba
 int id textView3 0x7f0a01bb
 int id textView4 0x7f0a01bc
+int id textView7 0x7f0a01f6
+int id textView8 0x7f0a01f7
+int id textView9 0x7f0a01f8
 int id text_gallery 0x7f0a01bd
 int id text_home 0x7f0a01be
 int id text_input_end_icon 0x7f0a01bf

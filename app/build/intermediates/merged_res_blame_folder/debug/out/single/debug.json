@@ -112,6 +112,10 @@
         "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_person.xml"
     },
     {
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_spoon.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_spoon.xml"
+    },
+    {
         "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
         "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },

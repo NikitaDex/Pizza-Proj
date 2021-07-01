@@ -1717,6 +1717,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_person
 drawable ic_promotions
+drawable ic_spoon
 drawable ic_telegram
 drawable ic_telegram1
 drawable ic_telegram12_foreground
@@ -1763,9 +1764,11 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id EmailAddress
 id FUNCTION
 id META
 id NO_DEBUG
+id Number
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1829,6 +1832,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id address
 id alertTitle
 id aligned
 id all
@@ -1865,10 +1869,12 @@ id btn_plus3
 id btn_plus4
 id btn_plus5
 id btn_telegram
+id button4
 id buttonPanel
 id cache_measures
 id cancel_action
 id cancel_button
+id card
 id center
 id center_horizontal
 id center_vertical
@@ -1979,7 +1985,9 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id imageView3
+id important
 id info
 id invisible
 id inward
@@ -2057,7 +2065,8 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id nav_basket
+id my_cupons
+id my_order
 id nav_contacts
 id nav_controller_view_tag
 id nav_cupons
@@ -2201,9 +2210,15 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
+id textView11
+id textView12
 id textView2
 id textView3
 id textView4
+id textView7
+id textView8
+id textView9
 id text_gallery
 id text_home
 id text_input_end_icon
