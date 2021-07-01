@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\corob\\Downloads\\Telegram Desktop\\Pizza Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\corob\\.gradle\\caches\\transforms-2\\files-2.1\\2139d73c5146b0d9ccfa1f5b382f03a7\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

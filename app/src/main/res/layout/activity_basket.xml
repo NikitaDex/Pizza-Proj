@@ -23,23 +23,24 @@
         android:id="@+id/btn_min1"
         android:layout_width="37sp"
         android:layout_height="40sp"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="25sp"
         android:layout_marginRight="10sp"
-        android:text="-"
-        android:layout_alignParentRight="true"
+        android:onClick="OnBthClick2"
 
 
-        />
+        android:text="+" />
+
     <Button
         android:id="@+id/btn_plus1"
         android:layout_width="37sp"
         android:layout_height="40sp"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="25sp"
         android:layout_marginRight="120sp"
-        android:text="+"
-        android:layout_alignParentRight="true"
+        android:onClick="OnBthClick1"
 
-        />
+        android:text="-" />
 
     <EditText
         android:id="@+id/editText1"
@@ -80,23 +81,24 @@
         android:id="@+id/btn_min2"
         android:layout_width="37sp"
         android:layout_height="40sp"
+        android:layout_below="@id/pizza"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="9sp"
         android:layout_marginRight="10sp"
-        android:text="-"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/pizza"
+        android:onClick="OnBthClick4"
 
-        />
+        android:text="+" />
+
     <Button
         android:id="@+id/btn_plus2"
         android:layout_width="37sp"
         android:layout_height="40sp"
+        android:layout_below="@id/pizza"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="9sp"
         android:layout_marginRight="120sp"
-        android:text="+"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/pizza"
-        />
+        android:onClick="OnBthClick3"
+        android:text="-" />
 
     <EditText
         android:id="@+id/editText2"
@@ -136,23 +138,24 @@
         android:id="@+id/btn_min3"
         android:layout_width="37sp"
         android:layout_height="40sp"
+        android:layout_below="@id/pizza2"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="9sp"
         android:layout_marginRight="10sp"
-        android:text="-"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/pizza2"
+        android:onClick="OnBthClick6"
 
-        />
+        android:text="+" />
+
     <Button
         android:id="@+id/btn_plus3"
         android:layout_width="37sp"
         android:layout_height="40sp"
+        android:layout_below="@id/pizza2"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="9sp"
         android:layout_marginRight="120sp"
-        android:text="+"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/pizza2"
-        />
+        android:onClick="OnBthClick5"
+        android:text="-" />
 
     <EditText
         android:id="@+id/editText3"
@@ -192,23 +195,24 @@
         android:id="@+id/btn_min4"
         android:layout_width="37sp"
         android:layout_height="40sp"
+        android:layout_below="@id/pizza3"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="9sp"
         android:layout_marginRight="10sp"
-        android:text="-"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/pizza3"
+        android:onClick="OnBthClick8"
 
-        />
+        android:text="+" />
+
     <Button
         android:id="@+id/btn_plus4"
         android:layout_width="37sp"
         android:layout_height="40sp"
+        android:layout_below="@id/pizza3"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="9sp"
         android:layout_marginRight="120sp"
-        android:text="+"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/pizza3"
-        />
+        android:onClick="OnBthClick7"
+        android:text="-" />
 
     <EditText
         android:id="@+id/editText4"
@@ -248,23 +252,24 @@
         android:id="@+id/btn_min5"
         android:layout_width="37sp"
         android:layout_height="40sp"
+        android:layout_below="@id/pizza4"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="9sp"
         android:layout_marginRight="10sp"
-        android:text="-"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/pizza4"
+        android:onClick="OnBthClick10"
 
-        />
+        android:text="+" />
+
     <Button
         android:id="@+id/btn_plus5"
         android:layout_width="37sp"
         android:layout_height="40sp"
+        android:layout_below="@id/pizza4"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="9sp"
         android:layout_marginRight="120sp"
-        android:text="+"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/pizza4"
-        />
+        android:onClick="OnBthClick9"
+        android:text="-" />
 
     <EditText
         android:id="@+id/editText5"
@@ -311,7 +316,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/end"
+        android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 

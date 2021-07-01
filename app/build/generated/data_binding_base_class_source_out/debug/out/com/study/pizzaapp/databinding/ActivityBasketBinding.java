@@ -69,9 +69,6 @@ public final class ActivityBasketBinding implements ViewBinding {
   public final EditText editText5;
 
   @NonNull
-  public final TextView end;
-
-  @NonNull
   public final TextView pizza;
 
   @NonNull
@@ -90,6 +87,9 @@ public final class ActivityBasketBinding implements ViewBinding {
   public final TextView pizza5;
 
   @NonNull
+  public final TextView result;
+
+  @NonNull
   public final TextView textView4;
 
   @NonNull
@@ -101,9 +101,9 @@ public final class ActivityBasketBinding implements ViewBinding {
       @NonNull Button btnPlus2, @NonNull Button btnPlus3, @NonNull Button btnPlus4,
       @NonNull Button btnPlus5, @NonNull EditText editText1, @NonNull EditText editText2,
       @NonNull EditText editText3, @NonNull EditText editText4, @NonNull EditText editText5,
-      @NonNull TextView end, @NonNull TextView pizza, @NonNull RelativeLayout pizza1,
-      @NonNull TextView pizza2, @NonNull TextView pizza3, @NonNull TextView pizza4,
-      @NonNull TextView pizza5, @NonNull TextView textView4, @NonNull View view) {
+      @NonNull TextView pizza, @NonNull RelativeLayout pizza1, @NonNull TextView pizza2,
+      @NonNull TextView pizza3, @NonNull TextView pizza4, @NonNull TextView pizza5,
+      @NonNull TextView result, @NonNull TextView textView4, @NonNull View view) {
     this.rootView = rootView;
     this.btnMin1 = btnMin1;
     this.btnMin2 = btnMin2;
@@ -121,13 +121,13 @@ public final class ActivityBasketBinding implements ViewBinding {
     this.editText3 = editText3;
     this.editText4 = editText4;
     this.editText5 = editText5;
-    this.end = end;
     this.pizza = pizza;
     this.pizza1 = pizza1;
     this.pizza2 = pizza2;
     this.pizza3 = pizza3;
     this.pizza4 = pizza4;
     this.pizza5 = pizza5;
+    this.result = result;
     this.textView4 = textView4;
     this.view = view;
   }
@@ -255,12 +255,6 @@ public final class ActivityBasketBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.end;
-      TextView end = rootView.findViewById(id);
-      if (end == null) {
-        break missingId;
-      }
-
       id = R.id.pizza;
       TextView pizza = rootView.findViewById(id);
       if (pizza == null) {
@@ -293,6 +287,12 @@ public final class ActivityBasketBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.result;
+      TextView result = rootView.findViewById(id);
+      if (result == null) {
+        break missingId;
+      }
+
       id = R.id.textView4;
       TextView textView4 = rootView.findViewById(id);
       if (textView4 == null) {
@@ -307,8 +307,8 @@ public final class ActivityBasketBinding implements ViewBinding {
 
       return new ActivityBasketBinding((RelativeLayout) rootView, btnMin1, btnMin2, btnMin3,
           btnMin4, btnMin5, btnOformit, btnPlus1, btnPlus2, btnPlus3, btnPlus4, btnPlus5, editText1,
-          editText2, editText3, editText4, editText5, end, pizza, pizza1, pizza2, pizza3, pizza4,
-          pizza5, textView4, view);
+          editText2, editText3, editText4, editText5, pizza, pizza1, pizza2, pizza3, pizza4, pizza5,
+          result, textView4, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

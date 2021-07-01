@@ -6,89 +6,89 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="29"
-8-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml
+8-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml
+9-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:5:5-43:19
+11-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:5:5-43:19
 12        android:allowBackup="true"
-12-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:6:9-35
+12-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.5.0] C:\Users\corob\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
-16-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:7:9-43
+16-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:7:9-43
 17        android:label="@string/app_name"
-17-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:8:9-41
+17-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:8:9-41
 18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:9:9-54
+18-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
-19-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:10:9-35
+19-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
 21        android:theme="@style/Theme.PizzaApp" >
-21-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:11:9-46
+21-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:11:9-46
 22        <activity
-22-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:12:9-19:20
+22-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:12:9-19:20
 23            android:name="com.study.pizzaapp.BasketActivity"
-23-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:12:19-49
+23-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:12:19-49
 24            android:label="@string/login_basket" >
-24-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:12:50-86
+24-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:12:50-86
 25            <intent-filter>
-25-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:14:13-18:29
+25-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:14:13-18:29
 26                <action android:name="com.study.pizzaapp.BasketActivity" />
-26-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:15:17-76
-26-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:15:25-73
+26-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:15:17-76
+26-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:15:25-73
 27
 28                <category android:name="android.intent.category.DEFAULT" />
-28-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:17:17-76
-28-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:17:27-73
+28-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
+28-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
 29            </intent-filter>
 30        </activity>
 31        <activity
-31-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:20:9-28:20
+31-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:20:9-28:20
 32            android:name="com.study.pizzaapp.ui.login.LoginActivity"
-32-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:21:13-51
+32-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:21:13-51
 33            android:label="@string/title_activity_login" >
-33-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:22:13-57
+33-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:22:13-57
 34            <intent-filter>
-34-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:23:13-27:29
+34-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:23:13-27:29
 35                <action android:name="com.study.pizzaapp.ui.login.LoginActivity" />
-35-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:24:17-84
-35-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:24:25-81
+35-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:24:17-84
+35-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:24:25-81
 36
 37                <category android:name="android.intent.category.DEFAULT" />
-37-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:17:17-76
-37-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:17:27-73
+37-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
+37-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
 38            </intent-filter>
 39        </activity>
 40        <activity
-40-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:29:9-38:20
+40-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:29:9-38:20
 41            android:name="com.study.pizzaapp.MainActivity"
-41-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:30:13-41
+41-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:30:13-41
 42            android:label="@string/app_name"
-42-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:31:13-45
+42-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:31:13-45
 43            android:theme="@style/Theme.PizzaApp.NoActionBar" >
-43-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:32:13-62
+43-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:32:13-62
 44            <intent-filter>
-44-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:33:13-37:29
+44-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:33:13-37:29
 45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:34:17-69
-45-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:34:25-66
+45-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:34:17-69
+45-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:34:25-66
 46
 47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:36:17-77
-47-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:36:27-74
+47-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:36:17-77
+47-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:36:27-74
 48            </intent-filter>
 49        </activity>
 50
 51        <meta-data
-51-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:40:9-42:57
+51-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:40:9-42:57
 52            android:name="preloaded_fonts"
-52-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:41:13-43
+52-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:41:13-43
 53            android:resource="@array/preloaded_fonts" />
-53-->C:\Users\corob\Downloads\Telegram Desktop\Pizza Proj\app\src\main\AndroidManifest.xml:42:13-54
+53-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:42:13-54
 54    </application>
 55
 56</manifest>
