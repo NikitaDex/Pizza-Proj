@@ -53,5 +53,7 @@
     <string name="end">Итого, без учёта доставки: </string>
     <string name="oformit">Оформить</string>
 
+    <string name="zakaz">Оформление заказа</string>
+
 
 </resources>

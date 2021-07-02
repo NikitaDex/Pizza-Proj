@@ -2,6 +2,7 @@ package com.study.pizzaapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -245,4 +246,8 @@ public class BasketActivity extends AppCompatActivity {
         result.setText(Integer.toString(sum));
     }
 
+    public void OnOformitClick(View view) {
+        Intent Oformit = new Intent("com.study.pizzaapp.ZakazActivity");
+        startActivity(Oformit);
+    }
 }
