@@ -95,6 +95,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
+    public void carb_btn(View view) {
+        Intent info = new Intent("com.study.pizzaapp.Carbonara");
+        startActivity(info);
+    }
 }
