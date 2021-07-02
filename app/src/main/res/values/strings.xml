@@ -51,9 +51,15 @@
     <string name="pizza5">Ветчина и грибы</string>
 
     <string name="end">Итого, без учёта доставки: </string>
+    <string name="end_zakaz">Итого: </string>
     <string name="oformit">Оформить</string>
 
     <string name="zakaz">Оформление заказа</string>
+    <string name="dostavka">Способ доставки:</string>
+    <string name="oplata">Способ оплаты:</string>
+    <string name="cupon">Выберите купон:</string>
+    <string name="address">Адрес доставки</string>
+    <string name="time">Время доставки</string>
 
 
 </resources>
