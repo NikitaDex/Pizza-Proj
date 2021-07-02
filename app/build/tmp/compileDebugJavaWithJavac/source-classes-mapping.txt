@@ -9,8 +9,8 @@ com/study/pizzaapp/databinding/FragmentBasketBinding.java
  com.study.pizzaapp.databinding.FragmentBasketBinding
 com/study/pizzaapp/cupons.java
  com.study.pizzaapp.cupons
-com/study/pizzaapp/BasketActivity.java
- com.study.pizzaapp.BasketActivity
+com/study/pizzaapp/ui/home/HomeViewModel.java
+ com.study.pizzaapp.ui.home.HomeViewModel
 com/study/pizzaapp/databinding/FragmentSlideshowBinding.java
  com.study.pizzaapp.databinding.FragmentSlideshowBinding
 com/study/pizzaapp/ui/slideshow/SlideshowViewModel.java
@@ -48,8 +48,6 @@ com/study/pizzaapp/ui/login/LoginActivity.java
  com.study.pizzaapp.ui.login.LoginActivity$3
  com.study.pizzaapp.ui.login.LoginActivity$4
  com.study.pizzaapp.ui.login.LoginActivity$5
-com/study/pizzaapp/databinding/ActivityRegisterWindowBinding.java
- com.study.pizzaapp.databinding.ActivityRegisterWindowBinding
 com/study/pizzaapp/databinding/FragmentCuponsBinding.java
  com.study.pizzaapp.databinding.FragmentCuponsBinding
 com/study/pizzaapp/databinding/NavHeaderMainBinding.java
@@ -86,7 +84,10 @@ com/study/pizzaapp/ui/login/LoggedInUserView.java
  com.study.pizzaapp.ui.login.LoggedInUserView
 com/study/pizzaapp/ui/login/LoginFormState.java
  com.study.pizzaapp.ui.login.LoginFormState
-com/study/pizzaapp/RegisterWindow.java
- com.study.pizzaapp.RegisterWindow
-com/study/pizzaapp/ui/home/HomeViewModel.java
- com.study.pizzaapp.ui.home.HomeViewModel
+com/study/pizzaapp/BasketActivity.java
+ com.study.pizzaapp.BasketActivity
+ com.study.pizzaapp.BasketActivity$1
+ com.study.pizzaapp.BasketActivity$2
+ com.study.pizzaapp.BasketActivity$3
+ com.study.pizzaapp.BasketActivity$4
+ com.study.pizzaapp.BasketActivity$5
