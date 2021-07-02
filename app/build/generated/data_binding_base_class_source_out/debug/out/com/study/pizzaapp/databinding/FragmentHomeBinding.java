@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -23,17 +24,83 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final Button btnBasket;
 
   @NonNull
+  public final ImageView imageView11;
+
+  @NonNull
+  public final ImageView imageView12;
+
+  @NonNull
+  public final ImageView imageView13;
+
+  @NonNull
+  public final ImageView imageView14;
+
+  @NonNull
+  public final ImageView imageView15;
+
+  @NonNull
   public final RelativeLayout menuWindow;
 
   @NonNull
   public final TextView textHome;
 
+  @NonNull
+  public final TextView textView13;
+
+  @NonNull
+  public final TextView textView14;
+
+  @NonNull
+  public final TextView textView15;
+
+  @NonNull
+  public final TextView textView16;
+
+  @NonNull
+  public final TextView textView17;
+
+  @NonNull
+  public final TextView textView18;
+
+  @NonNull
+  public final TextView textView19;
+
+  @NonNull
+  public final TextView textView20;
+
+  @NonNull
+  public final TextView textView5;
+
+  @NonNull
+  public final TextView textView6;
+
   private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull Button btnBasket,
-      @NonNull RelativeLayout menuWindow, @NonNull TextView textHome) {
+      @NonNull ImageView imageView11, @NonNull ImageView imageView12,
+      @NonNull ImageView imageView13, @NonNull ImageView imageView14,
+      @NonNull ImageView imageView15, @NonNull RelativeLayout menuWindow,
+      @NonNull TextView textHome, @NonNull TextView textView13, @NonNull TextView textView14,
+      @NonNull TextView textView15, @NonNull TextView textView16, @NonNull TextView textView17,
+      @NonNull TextView textView18, @NonNull TextView textView19, @NonNull TextView textView20,
+      @NonNull TextView textView5, @NonNull TextView textView6) {
     this.rootView = rootView;
     this.btnBasket = btnBasket;
+    this.imageView11 = imageView11;
+    this.imageView12 = imageView12;
+    this.imageView13 = imageView13;
+    this.imageView14 = imageView14;
+    this.imageView15 = imageView15;
     this.menuWindow = menuWindow;
     this.textHome = textHome;
+    this.textView13 = textView13;
+    this.textView14 = textView14;
+    this.textView15 = textView15;
+    this.textView16 = textView16;
+    this.textView17 = textView17;
+    this.textView18 = textView18;
+    this.textView19 = textView19;
+    this.textView20 = textView20;
+    this.textView5 = textView5;
+    this.textView6 = textView6;
   }
 
   @Override
@@ -69,6 +136,36 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView11;
+      ImageView imageView11 = rootView.findViewById(id);
+      if (imageView11 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView12;
+      ImageView imageView12 = rootView.findViewById(id);
+      if (imageView12 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView13;
+      ImageView imageView13 = rootView.findViewById(id);
+      if (imageView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView14;
+      ImageView imageView14 = rootView.findViewById(id);
+      if (imageView14 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView15;
+      ImageView imageView15 = rootView.findViewById(id);
+      if (imageView15 == null) {
+        break missingId;
+      }
+
       RelativeLayout menuWindow = (RelativeLayout) rootView;
 
       id = R.id.text_home;
@@ -77,7 +174,70 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((RelativeLayout) rootView, btnBasket, menuWindow, textHome);
+      id = R.id.textView13;
+      TextView textView13 = rootView.findViewById(id);
+      if (textView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView14;
+      TextView textView14 = rootView.findViewById(id);
+      if (textView14 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView15;
+      TextView textView15 = rootView.findViewById(id);
+      if (textView15 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView16;
+      TextView textView16 = rootView.findViewById(id);
+      if (textView16 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView17;
+      TextView textView17 = rootView.findViewById(id);
+      if (textView17 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView18;
+      TextView textView18 = rootView.findViewById(id);
+      if (textView18 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView19;
+      TextView textView19 = rootView.findViewById(id);
+      if (textView19 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView20;
+      TextView textView20 = rootView.findViewById(id);
+      if (textView20 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView5;
+      TextView textView5 = rootView.findViewById(id);
+      if (textView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView6;
+      TextView textView6 = rootView.findViewById(id);
+      if (textView6 == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((RelativeLayout) rootView, btnBasket, imageView11, imageView12,
+          imageView13, imageView14, imageView15, menuWindow, textHome, textView13, textView14,
+          textView15, textView16, textView17, textView18, textView19, textView20, textView5,
+          textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
