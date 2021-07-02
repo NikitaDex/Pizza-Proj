@@ -93,4 +93,9 @@ public class MainActivity extends AppCompatActivity {
         Intent Basket = new Intent("com.study.pizzaapp.BasketActivity");
         startActivity(Basket);
     }
+
+    public void btn_reg(View view) {
+        Intent Reg = new Intent("com.study.pizzaapp.RegisterWindow");
+        startActivity(Reg);
+    }
 }

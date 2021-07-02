@@ -1754,6 +1754,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rounder
 drawable side_nav_bar
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1769,6 +1770,7 @@ id FUNCTION
 id META
 id NO_DEBUG
 id Number
+id Reg_Win
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1869,6 +1871,7 @@ id btn_plus3
 id btn_plus4
 id btn_plus5
 id btn_telegram
+id button
 id button4
 id buttonPanel
 id cache_measures
@@ -2008,6 +2011,7 @@ id listMode
 id list_item
 id loading
 id login
+id mail_reg
 id masked
 id material_clock_display
 id material_clock_face
@@ -2067,6 +2071,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id my_cupons
 id my_order
+id name_reg
 id nav_contacts
 id nav_controller_view_tag
 id nav_cupons
@@ -2096,6 +2101,8 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id pass_reg
+id pass_reg_again
 id password
 id password_toggle
 id path
@@ -2262,6 +2269,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id wasBorn
 id withText
 id withinBounds
 id wrap
@@ -2331,6 +2339,7 @@ layout abc_tooltip
 layout activity_basket
 layout activity_login
 layout activity_main
+layout activity_register_window
 layout app_bar_main
 layout content_main
 layout custom_dialog

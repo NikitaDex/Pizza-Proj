@@ -44,15 +44,16 @@
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <Button
+
         android:id="@+id/login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="155dp"
+        android:layout_height="43dp"
         android:layout_gravity="start"
         android:layout_marginStart="48dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="48dp"
         android:layout_marginBottom="64dp"
-        android:background="@color/colorBtn"
+        android:background="@drawable/rounder"
         android:backgroundTint="@color/black"
         android:enabled="true"
         android:fontFamily="@font/montserrat_bold"
@@ -60,14 +61,18 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.2"
+
+
+        />
 
     <Button
         android:id="@+id/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="155dp"
+        android:layout_height="43dp"
         android:layout_gravity="start"
         android:layout_marginStart="48dp"
         android:layout_marginTop="16dp"
@@ -75,14 +80,19 @@
         android:layout_marginBottom="64dp"
         android:enabled="true"
         android:fontFamily="@font/montserrat_bold"
+        android:onClick="btn_reg"
         android:text="@string/action_register"
+        android:background="@drawable/rounder"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.366" />
+        app:layout_constraintVertical_bias="0.366"
+        android:bottomRightRadius="10dp"
+        android:topRightRadius="10dp"
+        />
 
     <ProgressBar
         android:id="@+id/loading"

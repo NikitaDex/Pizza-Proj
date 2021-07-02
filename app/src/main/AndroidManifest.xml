@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaApp">
-        <activity android:name=".BasketActivity" android:label="@string/login_basket">
-
+        <activity android:name=".RegisterWindow"></activity>
+        <activity
+            android:name=".BasketActivity"
+            android:label="@string/login_basket">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.BasketActivity" />
 
