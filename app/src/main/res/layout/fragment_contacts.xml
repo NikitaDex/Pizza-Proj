@@ -100,9 +100,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/view2"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="354dp"
+        android:layout_marginTop="416dp"
 
-        android:layout_marginBottom="-62dp"
+        android:layout_marginBottom="-124dp"
         android:fontFamily="@font/montserrat_bold"
         android:text="@string/tele_help"
         android:textAlignment="center"
@@ -116,9 +116,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/view2"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="462dp"
 
-        android:layout_marginBottom="-63dp"
+        android:layout_marginBottom="-125dp"
         android:fontFamily="@font/montserrat_bold"
         android:text="@string/number"
         android:textAlignment="center"
