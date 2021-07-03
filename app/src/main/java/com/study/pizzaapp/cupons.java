@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 /**
@@ -16,7 +17,7 @@ import android.widget.ListView;
  */
 public class cupons extends Fragment {
 
-    String[]cupons={""}; // объявляю массив с купонами, остальное в криэйт
+    private String[]name={"ghdjghfd","fgffdgd","vsdvv"};
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -29,7 +30,6 @@ public class cupons extends Fragment {
 
     public cupons() {
         // Required empty public constructor
-
     }
 
     /**
@@ -59,15 +59,22 @@ public class cupons extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.fragment_cupons, container, false);
 
+        ListView lvMain = (ListView) rootView.findViewById(R.id.listView);
 
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,name);
+
+        lvMain.setAdapter(adapter);
 
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cupons, container, false);
+        return rootView;
     }
 }
