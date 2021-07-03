@@ -17,7 +17,7 @@ import android.widget.ListView;
  */
 public class cupons extends Fragment {
 
-    private String[]name={"ghdjghfd","fgffdgd","vsdvv"};
+    private String[]name={"ghdjghfd","fgffdgd","vsdvv"}; // массив с купонами, код в криэйтвью
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -66,13 +66,13 @@ public class cupons extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_cupons, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_cupons, container, false); // это чтобы отображалось
 
-        ListView lvMain = (ListView) rootView.findViewById(R.id.listView);
+        ListView lvMain = (ListView) rootView.findViewById(R.id.listView); // объявляем поле для списка
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,name);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,name); // в этом адаптере хранится массив
 
-        lvMain.setAdapter(adapter);
+        lvMain.setAdapter(adapter); // присваиваем списку массив
 
         // Inflate the layout for this fragment
         return rootView;

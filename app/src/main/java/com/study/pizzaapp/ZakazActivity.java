@@ -13,30 +13,30 @@ import android.widget.Toast;
 
 public class ZakazActivity extends AppCompatActivity {
 
-    String[] dostavka = {"доставка", "самовывоз"};
-    String[] oplata = {"карта", "наличные"};
-    String[] cupon = {"здесь подключат базу данных"};
-    public TextView result;
+    String[] dostavka = {"доставка", "самовывоз"}; // массив для доставки
+    String[] oplata = {"карта", "наличные"}; // массив для оплаты
+    String[] cupon = {"здесь подключат базу данных"}; // массив для купонов
+    public TextView result; // объявила переменную с результатом
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zakaz);
 
-        ArrayAdapter<String> DostavkaAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, dostavka);
+        ArrayAdapter<String> DostavkaAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, dostavka); // адаптер, в котором хранится массив доставки
         DostavkaAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Spinner spinner1 = (Spinner) findViewById(R.id.spinner1);
-        spinner1.setAdapter(DostavkaAdapter);
+        Spinner spinner1 = (Spinner) findViewById(R.id.spinner1); // объявляем список
+        spinner1.setAdapter(DostavkaAdapter); // присваиваем списку адаптер
 
-        ArrayAdapter<String> OplataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, oplata);
+        ArrayAdapter<String> OplataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, oplata); // адаптер, в котором хранится массив оплаты
         OplataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Spinner spinner2 = (Spinner) findViewById(R.id.spinner2);
-        spinner2.setAdapter(OplataAdapter);
+        Spinner spinner2 = (Spinner) findViewById(R.id.spinner2); // объявляем список
+        spinner2.setAdapter(OplataAdapter); // присваиваем списку адаптер
 
-        ArrayAdapter<String> CuponAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, cupon);
+        ArrayAdapter<String> CuponAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, cupon); // адаптер, в котором хранится массив купонов
         CuponAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Spinner spinner3 = (Spinner) findViewById(R.id.spinner3);
-        spinner3.setAdapter(CuponAdapter);
+        Spinner spinner3 = (Spinner) findViewById(R.id.spinner3); // объявляем список
+        spinner3.setAdapter(CuponAdapter); // присваиваем списку адаптер
         result = (TextView)findViewById(R.id.result);
         result.setText(Integer.toString(BasketActivity.getResult() + 200));
 
