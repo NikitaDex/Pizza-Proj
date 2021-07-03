@@ -27,16 +27,34 @@
         android:layout_below="@+id/textView3"
         android:backgroundTint="@color/colorBtn"
         android:layout_marginHorizontal="50sp"
-        android:layout_marginTop="100sp"
+        android:layout_marginTop="30sp"
         android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cuponsPlain"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="60sp"
+        android:text="@string/couponsMy"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="30sp" />
+
+
 
     <Button
         android:id="@+id/btn_actv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/cuponsPlain"
-        android:layout_marginHorizontal="100sp"
-        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="5sp"
         android:backgroundTint="@color/colorBtn"
-        android:text="@string/couponsBtn" />
+        android:text="@string/couponsBtn"
+        android:layout_alignParentBottom="true"/>
+
+    <ListView
+        android:id="@+id/lvMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </RelativeLayout>

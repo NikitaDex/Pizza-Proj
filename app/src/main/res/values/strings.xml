@@ -26,6 +26,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="couponsText">Введите купон:</string>
+    <string name="couponsMy">Мои купоны:</string>
     <string name="couponsBtn">Активировать</string>
 
     <string name="Non1">sad</string>
