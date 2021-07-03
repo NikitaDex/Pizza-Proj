@@ -12,7 +12,7 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView11"
+            android:id="@+id/carb_view"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_marginTop="5dp"
@@ -27,7 +27,7 @@
             app:layout_constraintVertical_bias="0.01" />
 
         <ImageView
-            android:id="@+id/imageView12"
+            android:id="@+id/cheese_view"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_marginTop="5dp"
@@ -37,11 +37,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView11"
+            app:layout_constraintTop_toBottomOf="@+id/carb_view"
             app:layout_constraintVertical_bias="0.026" />
 
         <ImageView
-            android:id="@+id/imageView14"
+            android:id="@+id/fresh_view"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_marginTop="5dp"
@@ -51,11 +51,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintTop_toBottomOf="@+id/four_view"
             app:layout_constraintVertical_bias="0.026" />
 
         <ImageView
-            android:id="@+id/imageView15"
+            android:id="@+id/mash_view"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_marginTop="5dp"
@@ -65,11 +65,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView14"
+            app:layout_constraintTop_toBottomOf="@+id/fresh_view"
             app:layout_constraintVertical_bias="0.026" />
 
         <ImageView
-            android:id="@+id/imageView13"
+            android:id="@+id/four_view"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_marginTop="5dp"
@@ -79,7 +79,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView12"
+            app:layout_constraintTop_toBottomOf="@+id/cheese_view"
             app:layout_constraintVertical_bias="0.026" />
 
         <TextView
