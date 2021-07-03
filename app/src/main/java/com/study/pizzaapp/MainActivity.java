@@ -99,4 +99,25 @@ public class MainActivity extends AppCompatActivity {
         Intent info = new Intent("com.study.pizzaapp.Carbonara");
         startActivity(info);
     }
+
+    public void chees_btn(View view) {
+        Intent info = new Intent("com.study.pizzaapp.Chees_pizza");
+        startActivity(info);
+    }
+
+
+    public void four_season_btn(View view) {
+        Intent info = new Intent("com.study.pizzaapp.Four_season");
+        startActivity(info);
+    }
+
+    public void fresh_btn(View view) {
+        Intent info = new Intent("com.study.pizzaapp.Fresh_pizza");
+        startActivity(info);
+    }
+
+    public void mash_btn(View view) {
+        Intent info = new Intent("com.study.pizzaapp.Mashroom_pizza");
+        startActivity(info);
+    }
 }

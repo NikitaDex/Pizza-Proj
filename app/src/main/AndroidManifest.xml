@@ -9,14 +9,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaApp">
-        <activity android:name=".Carbonara">
+        <activity android:name=".Mashroom_pizza"
+            android:label="Ветчина и грибы">
+            <intent-filter>
+                <action android:name="com.study.pizzaapp.Mashroom_pizza" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Fresh_pizza"
+            android:label="Пепперони Фреш">
+            <intent-filter>
+                <action android:name="com.study.pizzaapp.Fresh_pizza" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Four_season"
+            android:label="Четыре сезона">
+            <intent-filter>
+                <action android:name="com.study.pizzaapp.Four_season" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chees_pizza"
+            android:label="Сырная">
+            <intent-filter>
+                <action android:name="com.study.pizzaapp.Chees_pizza" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Carbonara"
+            android:label="Карбонара">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Carbonara" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".ZakazActivity"
             android:label="@string/zakaz">
@@ -26,7 +58,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".RegisterWindow"
             android:label="@string/action_register">
