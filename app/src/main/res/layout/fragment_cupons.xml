@@ -42,8 +42,6 @@
         android:textColor="@color/colorText"
         android:textSize="30sp" />
 
-
-
     <Button
         android:id="@+id/btn_actv"
         android:layout_width="match_parent"

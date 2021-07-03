@@ -1,86 +1,86 @@
 [
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_basket.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_basket.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_mashroom_pizza.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_mashroom_pizza.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_fresh_pizza.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_fresh_pizza.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register_window.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_register_window.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_personal.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_personal.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_basket.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_basket.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chees_pizza.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_chees_pizza.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register_window.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_register_window.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_mashroom_pizza.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_mashroom_pizza.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_four_season.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_four_season.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_personal.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_personal.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gallery.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_cupons.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_cupons.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gallery.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_four_season.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_four_season.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_carbonara.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_carbonara.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_zakaz.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_zakaz.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_contacts.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_contacts.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slideshow.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_promotions.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_promotions.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_fresh_pizza.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_fresh_pizza.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chees_pizza.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_chees_pizza.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_contacts.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_contacts.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_zakaz.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_zakaz.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_basket.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_basket.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_basket.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_basket.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_promotions.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_promotions.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slideshow.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_cupons.xml",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_cupons.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_carbonara.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_carbonara.xml"
     }
 ]

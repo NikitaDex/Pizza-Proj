@@ -20,6 +20,7 @@
 
         <EditText
             android:id="@+id/mail_reg"
+            android:backgroundTint="@color/colorBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -33,6 +34,7 @@
 
         <EditText
             android:id="@+id/pass_reg"
+            android:backgroundTint="@color/colorBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -45,6 +47,7 @@
 
         <EditText
             android:id="@+id/pass_reg_again"
+            android:backgroundTint="@color/colorBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -57,6 +60,7 @@
 
         <EditText
             android:id="@+id/name_reg"
+            android:backgroundTint="@color/colorBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -69,6 +73,7 @@
 
         <EditText
             android:id="@+id/wasBorn"
+            android:backgroundTint="@color/colorBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

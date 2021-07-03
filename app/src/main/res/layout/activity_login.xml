@@ -13,6 +13,7 @@
 
     <EditText
         android:id="@+id/username"
+        android:backgroundTint="@color/colorBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -28,6 +29,7 @@
 
     <EditText
         android:id="@+id/password"
+        android:backgroundTint="@color/colorBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"

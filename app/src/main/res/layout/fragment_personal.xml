@@ -27,6 +27,7 @@
 
         <EditText
             android:id="@+id/address"
+            android:backgroundTint="@color/colorBtn"
             android:layout_width="192dp"
             android:layout_height="50dp"
             android:layout_gravity="right"
@@ -44,6 +45,7 @@
 
         <EditText
             android:id="@+id/card"
+            android:backgroundTint="@color/colorBtn"
             android:layout_width="162dp"
             android:layout_height="50dp"
             android:layout_gravity="right"
@@ -91,6 +93,7 @@
 
         <EditText
             android:id="@+id/Number"
+            android:backgroundTint="@color/colorBtn"
             android:layout_width="247dp"
             android:layout_height="50dp"
             android:ems="10"
@@ -106,6 +109,7 @@
 
         <EditText
             android:id="@+id/EmailAddress"
+            android:backgroundTint="@color/colorBtn"
             android:layout_width="160dp"
             android:layout_height="50dp"
             android:ems="10"
@@ -120,6 +124,7 @@
 
         <TextView
             android:id="@+id/textView8"
+            android:backgroundTint="@color/colorBtn"
             android:layout_width="202dp"
             android:layout_height="38dp"
             android:fontFamily="@font/montserrat"
