@@ -4,7 +4,6 @@ package com.study.pizzaapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -19,9 +18,6 @@ import java.lang.String;
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   private final RelativeLayout rootView;
-
-  @NonNull
-  public final Button btnBasket;
 
   @NonNull
   public final ImageView imageView11;
@@ -74,16 +70,14 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final TextView textView6;
 
-  private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull Button btnBasket,
-      @NonNull ImageView imageView11, @NonNull ImageView imageView12,
-      @NonNull ImageView imageView13, @NonNull ImageView imageView14,
-      @NonNull ImageView imageView15, @NonNull RelativeLayout menuWindow,
-      @NonNull TextView textHome, @NonNull TextView textView13, @NonNull TextView textView14,
-      @NonNull TextView textView15, @NonNull TextView textView16, @NonNull TextView textView17,
-      @NonNull TextView textView18, @NonNull TextView textView19, @NonNull TextView textView20,
-      @NonNull TextView textView5, @NonNull TextView textView6) {
+  private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull ImageView imageView11,
+      @NonNull ImageView imageView12, @NonNull ImageView imageView13,
+      @NonNull ImageView imageView14, @NonNull ImageView imageView15,
+      @NonNull RelativeLayout menuWindow, @NonNull TextView textHome, @NonNull TextView textView13,
+      @NonNull TextView textView14, @NonNull TextView textView15, @NonNull TextView textView16,
+      @NonNull TextView textView17, @NonNull TextView textView18, @NonNull TextView textView19,
+      @NonNull TextView textView20, @NonNull TextView textView5, @NonNull TextView textView6) {
     this.rootView = rootView;
-    this.btnBasket = btnBasket;
     this.imageView11 = imageView11;
     this.imageView12 = imageView12;
     this.imageView13 = imageView13;
@@ -130,12 +124,6 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_basket;
-      Button btnBasket = rootView.findViewById(id);
-      if (btnBasket == null) {
-        break missingId;
-      }
-
       id = R.id.imageView11;
       ImageView imageView11 = rootView.findViewById(id);
       if (imageView11 == null) {
@@ -234,7 +222,7 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((RelativeLayout) rootView, btnBasket, imageView11, imageView12,
+      return new FragmentHomeBinding((RelativeLayout) rootView, imageView11, imageView12,
           imageView13, imageView14, imageView15, menuWindow, textHome, textView13, textView14,
           textView15, textView16, textView17, textView18, textView19, textView20, textView5,
           textView6);

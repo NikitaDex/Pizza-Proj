@@ -77,8 +77,8 @@ com/study/pizzaapp/ui/home/HomeFragment.java
  com.study.pizzaapp.ui.home.HomeFragment$1
 com/study/pizzaapp/databinding/FragmentBasketBinding.java
  com.study.pizzaapp.databinding.FragmentBasketBinding
-com/study/pizzaapp/ui/home/HomeViewModel.java
- com.study.pizzaapp.ui.home.HomeViewModel
+com/study/pizzaapp/cupons.java
+ com.study.pizzaapp.cupons
 com/study/pizzaapp/ZakazActivity.java
  com.study.pizzaapp.ZakazActivity
 com/study/pizzaapp/basket.java
@@ -117,5 +117,5 @@ com/study/pizzaapp/ui/login/LoggedInUserView.java
  com.study.pizzaapp.ui.login.LoggedInUserView
 com/study/pizzaapp/RegisterWindow.java
  com.study.pizzaapp.RegisterWindow
-com/study/pizzaapp/cupons.java
- com.study.pizzaapp.cupons
+com/study/pizzaapp/ui/home/HomeViewModel.java
+ com.study.pizzaapp.ui.home.HomeViewModel

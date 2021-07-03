@@ -3,6 +3,7 @@ package com.study.pizzaapp;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 import android.widget.ArrayAdapter;
@@ -88,11 +89,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void BasketClick(View view) {
-        Intent Basket = new Intent("com.study.pizzaapp.BasketActivity");
-        startActivity(Basket);
-    }
-
 
     public void carb_btn(View view) {
         Intent info = new Intent("com.study.pizzaapp.Carbonara");
@@ -118,5 +114,10 @@ public class MainActivity extends AppCompatActivity {
     public void mash_btn(View view) {
         Intent info = new Intent("com.study.pizzaapp.Mashroom_pizza");
         startActivity(info);
+    }
+
+    public void basket_btn_bar(MenuItem item) {
+        Intent Basket = new Intent("com.study.pizzaapp.BasketActivity");
+        startActivity(Basket);
     }
 }

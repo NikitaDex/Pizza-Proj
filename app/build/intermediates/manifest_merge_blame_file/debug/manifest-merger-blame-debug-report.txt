@@ -6,208 +6,208 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="29"
-8-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml
+8-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml
+9-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:5:5-102:19
+11-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:5:5-102:19
 12        android:allowBackup="true"
-12-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] C:\Users\corob\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.5.0] C:\Users\Nikita\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
-16-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:7:9-43
+16-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:7:9-43
 17        android:label="@string/app_name"
-17-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:8:9-41
+17-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:8:9-41
 18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:9:9-54
+18-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
-19-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:10:9-35
+19-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
 21        android:theme="@style/Theme.PizzaApp" >
-21-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:11:9-46
+21-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:11:9-46
 22        <activity
-22-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:12:9-19:20
+22-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:12:9-19:20
 23            android:name="com.study.pizzaapp.Mashroom_pizza"
-23-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:12:19-49
+23-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:12:19-49
 24            android:label="Ветчина и грибы" >
-24-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:13:13-44
+24-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:13:13-44
 25            <intent-filter>
-25-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:14:13-18:29
+25-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:14:13-18:29
 26                <action android:name="com.study.pizzaapp.Mashroom_pizza" />
-26-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:15:17-76
-26-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:15:25-73
+26-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:15:17-76
+26-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:15:25-73
 27
 28                <category android:name="android.intent.category.DEFAULT" />
-28-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
-28-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
+28-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
+28-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
 29            </intent-filter>
 30        </activity>
 31        <activity
-31-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:20:9-27:20
+31-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:20:9-27:20
 32            android:name="com.study.pizzaapp.Fresh_pizza"
-32-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:20:19-46
+32-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:20:19-46
 33            android:label="Пепперони Фреш" >
-33-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:21:13-43
+33-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:21:13-43
 34            <intent-filter>
-34-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:22:13-26:29
+34-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:22:13-26:29
 35                <action android:name="com.study.pizzaapp.Fresh_pizza" />
-35-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:23:17-73
-35-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:23:25-70
+35-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:23:17-73
+35-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:23:25-70
 36
 37                <category android:name="android.intent.category.DEFAULT" />
-37-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
-37-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
+37-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
+37-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
 38            </intent-filter>
 39        </activity>
 40        <activity
-40-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:28:9-35:20
+40-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:28:9-35:20
 41            android:name="com.study.pizzaapp.Four_season"
-41-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:28:19-46
+41-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:28:19-46
 42            android:label="Четыре сезона" >
-42-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:29:13-42
+42-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:29:13-42
 43            <intent-filter>
-43-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:30:13-34:29
+43-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:30:13-34:29
 44                <action android:name="com.study.pizzaapp.Four_season" />
-44-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:31:17-73
-44-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:31:25-70
+44-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:31:17-73
+44-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:31:25-70
 45
 46                <category android:name="android.intent.category.DEFAULT" />
-46-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
-46-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
+46-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
+46-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
 47            </intent-filter>
 48        </activity>
 49        <activity
-49-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:36:9-43:20
+49-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:36:9-43:20
 50            android:name="com.study.pizzaapp.Chees_pizza"
-50-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:36:19-46
+50-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:36:19-46
 51            android:label="Сырная" >
-51-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:37:13-35
+51-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:37:13-35
 52            <intent-filter>
-52-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:38:13-42:29
+52-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:38:13-42:29
 53                <action android:name="com.study.pizzaapp.Chees_pizza" />
-53-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:39:17-73
-53-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:39:25-70
+53-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:39:17-73
+53-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:39:25-70
 54
 55                <category android:name="android.intent.category.DEFAULT" />
-55-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
-55-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
+55-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
+55-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
 56            </intent-filter>
 57        </activity>
 58        <activity
-58-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:44:9-51:20
+58-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:44:9-51:20
 59            android:name="com.study.pizzaapp.Carbonara"
-59-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:44:19-44
+59-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:44:19-44
 60            android:label="Карбонара" >
-60-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:45:13-38
+60-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:45:13-38
 61            <intent-filter>
-61-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:46:13-50:29
+61-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:46:13-50:29
 62                <action android:name="com.study.pizzaapp.Carbonara" />
-62-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:47:17-71
-62-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:47:25-68
+62-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:47:17-71
+62-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:47:25-68
 63
 64                <category android:name="android.intent.category.DEFAULT" />
-64-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
-64-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
+64-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
+64-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
 65            </intent-filter>
 66        </activity>
 67        <activity
-67-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:52:9-60:20
+67-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:52:9-60:20
 68            android:name="com.study.pizzaapp.ZakazActivity"
-68-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:53:13-42
+68-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:53:13-42
 69            android:label="@string/zakaz" >
-69-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:54:13-42
+69-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:54:13-42
 70            <intent-filter>
-70-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:55:13-59:29
+70-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:55:13-59:29
 71                <action android:name="com.study.pizzaapp.ZakazActivity" />
-71-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:56:17-75
-71-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:56:25-72
+71-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:56:17-75
+71-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:56:25-72
 72
 73                <category android:name="android.intent.category.DEFAULT" />
-73-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
-73-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
+73-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
+73-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
 74            </intent-filter>
 75        </activity>
 76        <activity
-76-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:61:9-69:20
+76-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:61:9-69:20
 77            android:name="com.study.pizzaapp.RegisterWindow"
-77-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:62:13-43
+77-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:62:13-43
 78            android:label="@string/action_register" >
-78-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:63:13-52
+78-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:63:13-52
 79            <intent-filter>
-79-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:64:13-68:29
+79-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:64:13-68:29
 80                <action android:name="com.study.pizzaapp.RegisterWindow" />
-80-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:65:17-76
-80-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:65:25-73
+80-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:65:17-76
+80-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:65:25-73
 81
 82                <category android:name="android.intent.category.DEFAULT" />
-82-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
-82-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
+82-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
+82-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
 83            </intent-filter>
 84        </activity>
 85        <activity
-85-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:70:9-78:20
+85-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:70:9-78:20
 86            android:name="com.study.pizzaapp.BasketActivity"
-86-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:71:13-43
+86-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:71:13-43
 87            android:label="@string/login_basket" >
-87-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:72:13-49
+87-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:72:13-49
 88            <intent-filter>
-88-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:73:13-77:29
+88-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:73:13-77:29
 89                <action android:name="com.study.pizzaapp.BasketActivity" />
-89-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:74:17-76
-89-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:74:25-73
+89-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:74:17-76
+89-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:74:25-73
 90
 91                <category android:name="android.intent.category.DEFAULT" />
-91-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
-91-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
+91-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
+91-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
 92            </intent-filter>
 93        </activity>
 94        <activity
-94-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:79:9-87:20
+94-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:79:9-87:20
 95            android:name="com.study.pizzaapp.ui.login.LoginActivity"
-95-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:80:13-51
+95-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:80:13-51
 96            android:label="@string/title_activity_login" >
-96-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:81:13-57
+96-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:81:13-57
 97            <intent-filter>
-97-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:82:13-86:29
+97-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:82:13-86:29
 98                <action android:name="com.study.pizzaapp.ui.login.LoginActivity" />
-98-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:83:17-84
-98-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:83:25-81
+98-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:83:17-84
+98-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:83:25-81
 99
 100                <category android:name="android.intent.category.DEFAULT" />
-100-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
-100-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
+100-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:17-76
+100-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:17:27-73
 101            </intent-filter>
 102        </activity>
 103        <activity
-103-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:88:9-97:20
+103-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:88:9-97:20
 104            android:name="com.study.pizzaapp.MainActivity"
-104-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:89:13-41
+104-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:89:13-41
 105            android:label="@string/app_name"
-105-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:90:13-45
+105-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:90:13-45
 106            android:theme="@style/Theme.PizzaApp.NoActionBar" >
-106-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:91:13-62
+106-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:91:13-62
 107            <intent-filter>
-107-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:92:13-96:29
+107-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:92:13-96:29
 108                <action android:name="android.intent.action.MAIN" />
-108-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:93:17-69
-108-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:93:25-66
+108-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:93:17-69
+108-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:93:25-66
 109
 110                <category android:name="android.intent.category.LAUNCHER" />
-110-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:95:17-77
-110-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:95:27-74
+110-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:95:17-77
+110-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:95:27-74
 111            </intent-filter>
 112        </activity>
 113
 114        <meta-data
-114-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:99:9-101:57
+114-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:99:9-101:57
 115            android:name="preloaded_fonts"
-115-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:100:13-43
+115-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:100:13-43
 116            android:resource="@array/preloaded_fonts" />
-116-->D:\Pizza-Proj\app\src\main\AndroidManifest.xml:101:13-54
+116-->C:\Users\Nikita\Desktop\Pizza-Proj\app\src\main\AndroidManifest.xml:101:13-54
 117    </application>
 118
 119</manifest>
