@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class ZakazActivity extends AppCompatActivity {
@@ -15,6 +16,7 @@ public class ZakazActivity extends AppCompatActivity {
     String[] dostavka = {"доставка", "самовывоз"};
     String[] oplata = {"карта", "наличные"};
     String[] cupon = {"здесь подключат базу данных"};
+    public TextView result;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,8 @@ public class ZakazActivity extends AppCompatActivity {
         CuponAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         Spinner spinner3 = (Spinner) findViewById(R.id.spinner3);
         spinner3.setAdapter(CuponAdapter);
+        result = (TextView)findViewById(R.id.result);
+        result.setText(Integer.toString(BasketActivity.getResult() + 200));
 
     }
 

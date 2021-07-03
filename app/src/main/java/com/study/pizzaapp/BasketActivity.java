@@ -17,7 +17,7 @@ public class BasketActivity extends AppCompatActivity {
     private int num3=0;
     private int num4=0;
     private int num5=0;
-    private int sum;
+    private static int sum;
 
     private EditText editText1;
     private EditText editText2;
@@ -25,7 +25,7 @@ public class BasketActivity extends AppCompatActivity {
     private EditText editText4;
     private EditText editText5;
 
-    private TextView result;
+    private static TextView result;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -154,6 +154,9 @@ public class BasketActivity extends AppCompatActivity {
                 result.setText(Integer.toString(sum));
             }
         });
+    }
+    public static int getResult() {
+        return sum;
     }
 
     public void OnBthClick1(View view){
