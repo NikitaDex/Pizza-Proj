@@ -4,10 +4,11 @@ package com.study.pizzaapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.study.pizzaapp.R;
 import java.lang.NullPointerException;
@@ -16,24 +17,38 @@ import java.lang.String;
 
 public final class FragmentPromotionsBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final ConstraintLayout frameLayout;
+  public final RelativeLayout frameLayout;
 
   @NonNull
-  public final TextView textView2;
+  public final ImageButton promo1Btn;
 
-  private FragmentPromotionsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout frameLayout, @NonNull TextView textView2) {
+  @NonNull
+  public final TextView promo1Text1;
+
+  @NonNull
+  public final ImageButton promo2Btn;
+
+  @NonNull
+  public final TextView promo2Text1;
+
+  private FragmentPromotionsBinding(@NonNull RelativeLayout rootView,
+      @NonNull RelativeLayout frameLayout, @NonNull ImageButton promo1Btn,
+      @NonNull TextView promo1Text1, @NonNull ImageButton promo2Btn,
+      @NonNull TextView promo2Text1) {
     this.rootView = rootView;
     this.frameLayout = frameLayout;
-    this.textView2 = textView2;
+    this.promo1Btn = promo1Btn;
+    this.promo1Text1 = promo1Text1;
+    this.promo2Btn = promo2Btn;
+    this.promo2Text1 = promo2Text1;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -58,15 +73,34 @@ public final class FragmentPromotionsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      ConstraintLayout frameLayout = (ConstraintLayout) rootView;
+      RelativeLayout frameLayout = (RelativeLayout) rootView;
 
-      id = R.id.textView2;
-      TextView textView2 = rootView.findViewById(id);
-      if (textView2 == null) {
+      id = R.id.promo1_btn;
+      ImageButton promo1Btn = rootView.findViewById(id);
+      if (promo1Btn == null) {
         break missingId;
       }
 
-      return new FragmentPromotionsBinding((ConstraintLayout) rootView, frameLayout, textView2);
+      id = R.id.promo1_text1;
+      TextView promo1Text1 = rootView.findViewById(id);
+      if (promo1Text1 == null) {
+        break missingId;
+      }
+
+      id = R.id.promo2_btn;
+      ImageButton promo2Btn = rootView.findViewById(id);
+      if (promo2Btn == null) {
+        break missingId;
+      }
+
+      id = R.id.promo2_text1;
+      TextView promo2Text1 = rootView.findViewById(id);
+      if (promo2Text1 == null) {
+        break missingId;
+      }
+
+      return new FragmentPromotionsBinding((RelativeLayout) rootView, frameLayout, promo1Btn,
+          promo1Text1, promo2Btn, promo2Text1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -20,19 +20,19 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ImageView imageView11;
+  public final ImageView carbView;
 
   @NonNull
-  public final ImageView imageView12;
+  public final ImageView cheeseView;
 
   @NonNull
-  public final ImageView imageView13;
+  public final ImageView fourView;
 
   @NonNull
-  public final ImageView imageView14;
+  public final ImageView freshView;
 
   @NonNull
-  public final ImageView imageView15;
+  public final ImageView mashView;
 
   @NonNull
   public final RelativeLayout menuWindow;
@@ -70,19 +70,19 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final TextView textView6;
 
-  private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull ImageView imageView11,
-      @NonNull ImageView imageView12, @NonNull ImageView imageView13,
-      @NonNull ImageView imageView14, @NonNull ImageView imageView15,
-      @NonNull RelativeLayout menuWindow, @NonNull TextView textHome, @NonNull TextView textView13,
-      @NonNull TextView textView14, @NonNull TextView textView15, @NonNull TextView textView16,
-      @NonNull TextView textView17, @NonNull TextView textView18, @NonNull TextView textView19,
-      @NonNull TextView textView20, @NonNull TextView textView5, @NonNull TextView textView6) {
+  private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull ImageView carbView,
+      @NonNull ImageView cheeseView, @NonNull ImageView fourView, @NonNull ImageView freshView,
+      @NonNull ImageView mashView, @NonNull RelativeLayout menuWindow, @NonNull TextView textHome,
+      @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView15,
+      @NonNull TextView textView16, @NonNull TextView textView17, @NonNull TextView textView18,
+      @NonNull TextView textView19, @NonNull TextView textView20, @NonNull TextView textView5,
+      @NonNull TextView textView6) {
     this.rootView = rootView;
-    this.imageView11 = imageView11;
-    this.imageView12 = imageView12;
-    this.imageView13 = imageView13;
-    this.imageView14 = imageView14;
-    this.imageView15 = imageView15;
+    this.carbView = carbView;
+    this.cheeseView = cheeseView;
+    this.fourView = fourView;
+    this.freshView = freshView;
+    this.mashView = mashView;
     this.menuWindow = menuWindow;
     this.textHome = textHome;
     this.textView13 = textView13;
@@ -124,33 +124,33 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView11;
-      ImageView imageView11 = rootView.findViewById(id);
-      if (imageView11 == null) {
+      id = R.id.carb_view;
+      ImageView carbView = rootView.findViewById(id);
+      if (carbView == null) {
         break missingId;
       }
 
-      id = R.id.imageView12;
-      ImageView imageView12 = rootView.findViewById(id);
-      if (imageView12 == null) {
+      id = R.id.cheese_view;
+      ImageView cheeseView = rootView.findViewById(id);
+      if (cheeseView == null) {
         break missingId;
       }
 
-      id = R.id.imageView13;
-      ImageView imageView13 = rootView.findViewById(id);
-      if (imageView13 == null) {
+      id = R.id.four_view;
+      ImageView fourView = rootView.findViewById(id);
+      if (fourView == null) {
         break missingId;
       }
 
-      id = R.id.imageView14;
-      ImageView imageView14 = rootView.findViewById(id);
-      if (imageView14 == null) {
+      id = R.id.fresh_view;
+      ImageView freshView = rootView.findViewById(id);
+      if (freshView == null) {
         break missingId;
       }
 
-      id = R.id.imageView15;
-      ImageView imageView15 = rootView.findViewById(id);
-      if (imageView15 == null) {
+      id = R.id.mash_view;
+      ImageView mashView = rootView.findViewById(id);
+      if (mashView == null) {
         break missingId;
       }
 
@@ -222,10 +222,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((RelativeLayout) rootView, imageView11, imageView12,
-          imageView13, imageView14, imageView15, menuWindow, textHome, textView13, textView14,
-          textView15, textView16, textView17, textView18, textView19, textView20, textView5,
-          textView6);
+      return new FragmentHomeBinding((RelativeLayout) rootView, carbView, cheeseView, fourView,
+          freshView, mashView, menuWindow, textHome, textView13, textView14, textView15, textView16,
+          textView17, textView18, textView19, textView20, textView5, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

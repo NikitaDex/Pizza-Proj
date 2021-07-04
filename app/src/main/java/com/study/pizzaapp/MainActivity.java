@@ -6,9 +6,10 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
+import android.widget.ImageButton;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -23,6 +24,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.study.pizzaapp.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
+
+    private boolean hasBeenClicked1 = false; // для отслеживания событий
+    private boolean hasBeenClicked2 = false;
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
@@ -119,5 +123,44 @@ public class MainActivity extends AppCompatActivity {
     public void basket_btn_bar(MenuItem item) {
         Intent Basket = new Intent("com.study.pizzaapp.BasketActivity");
         startActivity(Basket);
+    }
+
+    public void OnClickPromo1(View view){ // кнопка для появления текста акции 1
+        TextView promo1 = findViewById(R.id.promo1_text1);
+        ImageButton promo2_btn = findViewById(R.id.promo2_btn);
+        ImageButton promo1_btn = findViewById(R.id.promo1_btn);
+
+
+        if (!hasBeenClicked1){
+            promo1.setVisibility(View.VISIBLE);
+            hasBeenClicked1 =true;
+            RelativeLayout.LayoutParams params =
+                    new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,
+                            RelativeLayout.LayoutParams.WRAP_CONTENT);
+            params.addRule(RelativeLayout.BELOW, promo1.getId() );
+            params.addRule(RelativeLayout.CENTER_HORIZONTAL, promo1.getId() );
+            promo2_btn.setLayoutParams(params);
+        }
+        else if (hasBeenClicked1){
+            promo1.setVisibility(View.INVISIBLE);
+            hasBeenClicked1 =false;
+            RelativeLayout.LayoutParams params =
+                    new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,
+                            RelativeLayout.LayoutParams.WRAP_CONTENT);
+            params.addRule(RelativeLayout.BELOW, promo1_btn.getId());
+            params.addRule(RelativeLayout.CENTER_HORIZONTAL, promo1_btn.getId() );
+            promo2_btn.setLayoutParams(params);
+        }
+    }
+    public void OnClickPromo2(View view){ // кнопка для появления текста акции 2
+        TextView promo2 = findViewById(R.id.promo2_text1);
+        if (!hasBeenClicked2){
+            promo2.setVisibility(View.VISIBLE);
+            hasBeenClicked2 =true;
+        }
+        else if (hasBeenClicked2){
+            promo2.setVisibility(View.INVISIBLE);
+            hasBeenClicked2 =false;
+        }
     }
 }

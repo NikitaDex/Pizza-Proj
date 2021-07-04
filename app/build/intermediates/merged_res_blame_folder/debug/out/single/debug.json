@@ -24,6 +24,10 @@
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_skidka_2_photo.png.flat",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\skidka_2_photo.png"
+    },
+    {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_promotions.xml.flat",
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_promotions.xml"
     },
@@ -206,6 +210,10 @@
     {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cont_pizza.png.flat",
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cont_pizza.png"
+    },
+    {
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_skidka_1_photo.png.flat",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\skidka_1_photo.png"
     },
     {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_telegram12_round.png.flat",

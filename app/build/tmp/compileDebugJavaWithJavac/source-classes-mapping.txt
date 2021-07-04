@@ -110,12 +110,12 @@ com/study/pizzaapp/Chees_pizza.java
  com.study.pizzaapp.Chees_pizza
 com/study/pizzaapp/ui/login/LoginViewModel.java
  com.study.pizzaapp.ui.login.LoginViewModel
-com/study/pizzaapp/MainActivity.java
- com.study.pizzaapp.MainActivity
- com.study.pizzaapp.MainActivity$1
+com/study/pizzaapp/ui/home/HomeViewModel.java
+ com.study.pizzaapp.ui.home.HomeViewModel
 com/study/pizzaapp/ui/login/LoggedInUserView.java
  com.study.pizzaapp.ui.login.LoggedInUserView
 com/study/pizzaapp/RegisterWindow.java
  com.study.pizzaapp.RegisterWindow
-com/study/pizzaapp/ui/home/HomeViewModel.java
- com.study.pizzaapp.ui.home.HomeViewModel
+com/study/pizzaapp/MainActivity.java
+ com.study.pizzaapp.MainActivity
+ com.study.pizzaapp.MainActivity$1

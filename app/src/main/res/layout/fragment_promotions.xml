@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frameLayout"
@@ -7,5 +7,52 @@
     android:layout_height="match_parent"
     tools:context=".promotions">
 
+        <ImageButton
+            android:id="@+id/promo1_btn"
+            android:layout_width="350sp"
+            android:layout_height="223sp"
+            android:layout_marginTop="30sp"
+            android:onClick="OnClickPromo1"
+            android:layout_marginHorizontal="30sp"
+            android:src="@drawable/skidka_1_photo" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/promo1_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/promo1_btn"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/promo1Text1"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            android:textSize="15sp"
+            android:visibility="invisible" />
+
+
+        <ImageButton
+            android:id="@+id/promo2_btn"
+            android:layout_marginTop="30sp"
+            android:layout_below="@+id/promo1_btn"
+            android:layout_width="350sp"
+            android:layout_height="234sp"
+            android:onClick="OnClickPromo2"
+            android:layout_marginHorizontal="30sp"
+            android:src="@drawable/skidka_2_photo"
+            />
+
+
+        <TextView
+            android:id="@+id/promo2_text1"
+            android:layout_below="@+id/promo2_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/promo2Text1"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/colorText"
+            android:textSize="15sp" />
+
+</RelativeLayout>
