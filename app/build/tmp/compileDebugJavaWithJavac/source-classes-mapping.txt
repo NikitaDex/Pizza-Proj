@@ -44,13 +44,8 @@ com/study/pizzaapp/databinding/ActivityCarbonaraBinding.java
  com.study.pizzaapp.databinding.ActivityCarbonaraBinding
 com/study/pizzaapp/ui/login/LoginViewModelFactory.java
  com.study.pizzaapp.ui.login.LoginViewModelFactory
-com/study/pizzaapp/ui/login/LoginActivity.java
- com.study.pizzaapp.ui.login.LoginActivity
- com.study.pizzaapp.ui.login.LoginActivity$1
- com.study.pizzaapp.ui.login.LoginActivity$2
- com.study.pizzaapp.ui.login.LoginActivity$3
- com.study.pizzaapp.ui.login.LoginActivity$4
- com.study.pizzaapp.ui.login.LoginActivity$5
+com/study/pizzaapp/ui/home/HomeViewModel.java
+ com.study.pizzaapp.ui.home.HomeViewModel
 com/study/pizzaapp/databinding/ActivityRegisterWindowBinding.java
  com.study.pizzaapp.databinding.ActivityRegisterWindowBinding
 com/study/pizzaapp/databinding/FragmentCuponsBinding.java
@@ -92,8 +87,8 @@ com/study/pizzaapp/data/LoginDataSource.java
  com.study.pizzaapp.data.LoginDataSource
 com/study/pizzaapp/databinding/ActivityLoginBinding.java
  com.study.pizzaapp.databinding.ActivityLoginBinding
-com/study/pizzaapp/personal.java
- com.study.pizzaapp.personal
+com/study/pizzaapp/RegisterWindow.java
+ com.study.pizzaapp.RegisterWindow
 com/study/pizzaapp/databinding/FragmentContactsBinding.java
  com.study.pizzaapp.databinding.FragmentContactsBinding
 com/study/pizzaapp/databinding/FragmentPersonalBinding.java
@@ -115,7 +110,12 @@ com/study/pizzaapp/MainActivity.java
  com.study.pizzaapp.MainActivity$1
 com/study/pizzaapp/ui/login/LoggedInUserView.java
  com.study.pizzaapp.ui.login.LoggedInUserView
-com/study/pizzaapp/RegisterWindow.java
- com.study.pizzaapp.RegisterWindow
-com/study/pizzaapp/ui/home/HomeViewModel.java
- com.study.pizzaapp.ui.home.HomeViewModel
+com/study/pizzaapp/personal.java
+ com.study.pizzaapp.personal
+com/study/pizzaapp/ui/login/LoginActivity.java
+ com.study.pizzaapp.ui.login.LoginActivity
+ com.study.pizzaapp.ui.login.LoginActivity$1
+ com.study.pizzaapp.ui.login.LoginActivity$2
+ com.study.pizzaapp.ui.login.LoginActivity$3
+ com.study.pizzaapp.ui.login.LoginActivity$4
+ com.study.pizzaapp.ui.login.LoginActivity$5

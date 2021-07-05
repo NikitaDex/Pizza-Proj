@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_coupons.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_personal.xml.flat",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_personal.xml"
-    },
-    {
         "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
         "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_personal.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_personal.xml"
     },
     {
         "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_promotions.xml.flat",
