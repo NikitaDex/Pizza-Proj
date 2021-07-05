@@ -10,6 +10,21 @@
         android:layout_width="match_parent"
         android:layout_height="793dp">
 
+        <Button
+            android:id="@+id/save_changes"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Сохранить изменения"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.777" />
+
         <TextView
             android:id="@+id/textView7"
             android:layout_width="170dp"
@@ -179,8 +194,8 @@
             app:layout_constraintVertical_bias="0.15" />
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="250dp"
+            android:id="@+id/leave"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="Выйти из аккаунта"
             android:textAllCaps="false"

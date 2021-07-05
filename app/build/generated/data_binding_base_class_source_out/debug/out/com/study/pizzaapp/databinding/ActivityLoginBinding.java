@@ -21,6 +21,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button button2;
+
+  @NonNull
   public final ConstraintLayout container;
 
   @NonNull
@@ -38,10 +41,11 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final EditText username;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView,
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button button2,
       @NonNull ConstraintLayout container, @NonNull ProgressBar loading, @NonNull Button login,
       @NonNull EditText password, @NonNull Button register, @NonNull EditText username) {
     this.rootView = rootView;
+    this.button2 = button2;
     this.container = container;
     this.loading = loading;
     this.login = login;
@@ -77,6 +81,12 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.button2;
+      Button button2 = rootView.findViewById(id);
+      if (button2 == null) {
+        break missingId;
+      }
+
       ConstraintLayout container = (ConstraintLayout) rootView;
 
       id = R.id.loading;
@@ -109,8 +119,8 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, container, loading, login,
-          password, register, username);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, button2, container, loading,
+          login, password, register, username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

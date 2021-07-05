@@ -58,6 +58,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (loginFormState.getUsernameError() != null) {
                     usernameEditText.setError(getString(loginFormState.getUsernameError()));
                 }
+
                 if (loginFormState.getPasswordError() != null) {
                     passwordEditText.setError(getString(loginFormState.getPasswordError()));
                 }
@@ -139,4 +140,6 @@ public class LoginActivity extends AppCompatActivity {
         Intent Reg = new Intent("com.study.pizzaapp.RegisterWindow");
         startActivity(Reg);
     }
+
+
 }
