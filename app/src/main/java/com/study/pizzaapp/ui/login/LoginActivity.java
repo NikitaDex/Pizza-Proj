@@ -118,9 +118,14 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadingProgressBar.setVisibility(View.VISIBLE);
-                loginViewModel.login(usernameEditText.getText().toString(),
-                        passwordEditText.getText().toString());
+                EditText username = findViewById(R.id.username);
+                EditText password = findViewById(R.id.password);
+
+                if (username.getText().toString().equals("user@mail.ru") & password.getText().toString().equals("password")) {
+                    Intent Enter = new Intent("com.study.pizzaapp.MainActivity");
+                    startActivity(Enter);
+                }
+
             }
         });
     }
