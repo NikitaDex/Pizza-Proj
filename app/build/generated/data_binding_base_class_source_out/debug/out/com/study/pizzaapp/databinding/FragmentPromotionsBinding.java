@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,10 +18,10 @@ import java.lang.String;
 
 public final class FragmentPromotionsBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
-  public final RelativeLayout frameLayout;
+  public final ScrollView frameLayout;
 
   @NonNull
   public final ImageButton promo1Btn;
@@ -34,21 +35,24 @@ public final class FragmentPromotionsBinding implements ViewBinding {
   @NonNull
   public final TextView promo2Text1;
 
-  private FragmentPromotionsBinding(@NonNull RelativeLayout rootView,
-      @NonNull RelativeLayout frameLayout, @NonNull ImageButton promo1Btn,
-      @NonNull TextView promo1Text1, @NonNull ImageButton promo2Btn,
-      @NonNull TextView promo2Text1) {
+  @NonNull
+  public final RelativeLayout relaone;
+
+  private FragmentPromotionsBinding(@NonNull ScrollView rootView, @NonNull ScrollView frameLayout,
+      @NonNull ImageButton promo1Btn, @NonNull TextView promo1Text1, @NonNull ImageButton promo2Btn,
+      @NonNull TextView promo2Text1, @NonNull RelativeLayout relaone) {
     this.rootView = rootView;
     this.frameLayout = frameLayout;
     this.promo1Btn = promo1Btn;
     this.promo1Text1 = promo1Text1;
     this.promo2Btn = promo2Btn;
     this.promo2Text1 = promo2Text1;
+    this.relaone = relaone;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -73,7 +77,7 @@ public final class FragmentPromotionsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      RelativeLayout frameLayout = (RelativeLayout) rootView;
+      ScrollView frameLayout = (ScrollView) rootView;
 
       id = R.id.promo1_btn;
       ImageButton promo1Btn = rootView.findViewById(id);
@@ -99,8 +103,14 @@ public final class FragmentPromotionsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentPromotionsBinding((RelativeLayout) rootView, frameLayout, promo1Btn,
-          promo1Text1, promo2Btn, promo2Text1);
+      id = R.id.relaone;
+      RelativeLayout relaone = rootView.findViewById(id);
+      if (relaone == null) {
+        break missingId;
+      }
+
+      return new FragmentPromotionsBinding((ScrollView) rootView, frameLayout, promo1Btn,
+          promo1Text1, promo2Btn, promo2Text1, relaone);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
