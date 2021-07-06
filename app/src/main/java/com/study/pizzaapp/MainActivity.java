@@ -1,6 +1,8 @@
 package com.study.pizzaapp;
 
 import android.content.Intent;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -23,6 +25,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.study.pizzaapp.databinding.ActivityMainBinding;
 
+import java.io.IOException;
+
 public class MainActivity extends AppCompatActivity {
 
     private boolean hasBeenClicked1 = false; // для отслеживания событий
@@ -30,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
+
+    private DBHelper mDBHelper;
+    private SQLiteDatabase mDb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +67,19 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        mDBHelper = new DBHelper(this);
+
+        try {
+            mDBHelper.updateDataBase();
+        } catch (IOException mIOException) {
+            throw new Error("UnableToUpdateDatabase");
+        }
+
+        try {
+            mDb = mDBHelper.getWritableDatabase();
+        } catch (SQLException mSQLException) {
+            throw mSQLException;
+        }
     }
 
     @Override
@@ -97,6 +117,9 @@ public class MainActivity extends AppCompatActivity {
     public void carb_btn(View view) {
         Intent info = new Intent("com.study.pizzaapp.Carbonara");
         startActivity(info);
+
+        DBHelper db=new DBHelper(this);
+        System.out.println(mDBHelper.getTitle());
     }
 
     public void chees_btn(View view) {
