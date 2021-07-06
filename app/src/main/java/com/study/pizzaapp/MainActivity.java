@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
         Intent info = new Intent("com.study.pizzaapp.Carbonara");
         startActivity(info);
 
-        DBHelper db=new DBHelper(this);
+        // mDBHelper.insertUser("msdfokljsdf","12345678","Валерий Назаргулов","29.09.01");
         System.out.println(mDBHelper.getTitle());
     }
 

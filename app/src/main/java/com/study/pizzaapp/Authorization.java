@@ -3,12 +3,15 @@ package com.study.pizzaapp;
 import java.io.*;
 
 import android.content.*;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
 
 
 public class Authorization implements Serializable {
 
+
     //////////////////Конструктор/////////////////////
-    public Authorization(Context context, String name,String password, String mail, String phoneNumber, String cardNumber, String address, String birthday) {
+    public Authorization(Context context, String name,String password, String mail, String phoneNumber, String cardNumber, String address, String birthday, String ID) {
         this.context = context;
         this.name = name;
         this.password = password;
@@ -17,6 +20,7 @@ public class Authorization implements Serializable {
         this.cardNumber = cardNumber;
         this.address = address;
         this.birthday = birthday;
+        this.ID = ID;
     }
     //public Authorization(Context context) {
     //    this.context = context;
@@ -30,6 +34,7 @@ public class Authorization implements Serializable {
     private String cardNumber;
     private String address;
     private String birthday;
+    private String ID;
 
     //////////////////Геттеры/////////////////////
     public String getName() {
@@ -158,7 +163,7 @@ public class Authorization implements Serializable {
         catch (Exception ex) {
             ex.printStackTrace();
         }
-        return new Authorization(null,"-", "-", "-", "-", "-", "-", "-");
+        return new Authorization(null,"-", "-", "-", "-", "-", "-", "-", "-");
     }
 
     public void printData() {
@@ -168,5 +173,6 @@ public class Authorization implements Serializable {
         System.out.println(cardNumber);
         System.out.println(address);
         System.out.println(birthday);
+        System.out.println(ID);
     }
 }
