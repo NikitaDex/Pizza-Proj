@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaApp">
         <activity android:name=".Enter_activity"
-            android:label="@string/title_activity_login">>
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait">
             <intent-filter>
             <action android:name="com.study.pizzaapp.Enter_activity" />
 
@@ -18,7 +19,8 @@
         </intent-filter></activity>
         <activity
             android:name=".Mashroom_pizza"
-            android:label="Ветчина и грибы">
+            android:label="Ветчина и грибы"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Mashroom_pizza" />
 
@@ -27,7 +29,8 @@
         </activity>
         <activity
             android:name=".Fresh_pizza"
-            android:label="Пепперони Фреш">
+            android:label="Пепперони Фреш"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Fresh_pizza" />
 
@@ -36,7 +39,8 @@
         </activity>
         <activity
             android:name=".Four_season"
-            android:label="Четыре сезона">
+            android:label="Четыре сезона"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Four_season" />
 
@@ -45,7 +49,8 @@
         </activity>
         <activity
             android:name=".Chees_pizza"
-            android:label="Сырная">
+            android:label="Сырная"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Chees_pizza" />
 
@@ -54,7 +59,8 @@
         </activity>
         <activity
             android:name=".Carbonara"
-            android:label="Карбонара">
+            android:label="Карбонара"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Carbonara" />
 
@@ -63,7 +69,8 @@
         </activity>
         <activity
             android:name=".ZakazActivity"
-            android:label="@string/zakaz">
+            android:label="@string/zakaz"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.ZakazActivity" />
 
@@ -72,7 +79,8 @@
         </activity>
         <activity
             android:name=".RegisterWindow"
-            android:label="@string/action_register">
+            android:label="@string/action_register"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.RegisterWindow" />
 
@@ -81,7 +89,8 @@
         </activity>
         <activity
             android:name=".BasketActivity"
-            android:label="@string/login_basket">
+            android:label="@string/login_basket"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.BasketActivity" />
 
@@ -90,7 +99,8 @@
         </activity>
         <activity
             android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login">
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.ui.login.LoginActivity" />
 
@@ -100,7 +110,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.PizzaApp.NoActionBar">
+            android:theme="@style/Theme.PizzaApp.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
