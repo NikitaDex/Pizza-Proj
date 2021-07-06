@@ -3,11 +3,15 @@ package com.study.pizzaapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 
 import android.widget.EditText;
 
+
+import java.io.IOException;
 
 import static com.study.pizzaapp.R.layout.activity_register_window;
 
@@ -18,6 +22,9 @@ public class RegisterWindow extends AppCompatActivity {
     EditText name;
     EditText birthday;
 
+    private DBHelper mDBHelper;
+    private SQLiteDatabase mDb;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +34,21 @@ public class RegisterWindow extends AppCompatActivity {
         repeatPass = (EditText)findViewById(R.id.pass_reg_again);
         name = (EditText)findViewById(R.id.name_reg);
         birthday = (EditText)findViewById(R.id.wasBorn);
+
+
+        mDBHelper = new DBHelper(this);
+
+        try {
+            mDBHelper.updateDataBase();
+        } catch (IOException mIOException) {
+            throw new Error("UnableToUpdateDatabase");
+        }
+
+        try {
+            mDb = mDBHelper.getWritableDatabase();
+        } catch (SQLException mSQLException) {
+            throw mSQLException;
+        }
     }
     public boolean allFieldsFilled() {
         if (mail.getText().toString().length() != 0 &
@@ -48,6 +70,11 @@ public class RegisterWindow extends AppCompatActivity {
         System.out.println(allFieldsFilled());
         System.out.println(rightPassword());
         if (allFieldsFilled() & rightPassword()) {
+
+            //Добавление в базу данных
+            mDBHelper.insertUser(mail.getText().toString(),pass.getText().toString(),name.getText().toString(),birthday.getText().toString());
+
+
             Authorization user = new Authorization(getApplicationContext(),
                     name.getText().toString(),
                     pass.getText().toString(),
@@ -55,15 +82,18 @@ public class RegisterWindow extends AppCompatActivity {
                     "-",
                     "-",
                     "-",
-                    birthday.getText().toString());
+                    birthday.getText().toString(),
+                    mDBHelper.getLastUserID());
             user.Save();
             Intent MainActivity = new Intent("com.study.pizzaapp.ZakazActivity");
             startActivity(MainActivity);
+
         }
     }
 
     public void register_btn(View view) {
         Intent Enter = new Intent("com.study.pizzaapp.MainActivity");
         startActivity(Enter);
+
     }
 }

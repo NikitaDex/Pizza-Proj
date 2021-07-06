@@ -1,5 +1,6 @@
 package com.study.pizzaapp;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -17,7 +18,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private static String DB_NAME = "Пиццерия.db";
     private static String DB_PATH = "";
-    private static final int DB_VERSION = 1;
+    private static final int DB_VERSION = 5;
 
     private SQLiteDatabase mDataBase;
     private final Context mContext;
@@ -83,15 +84,17 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
+        if (newVersion > oldVersion)
+            mNeedUpdate = true;
     }
 
     public String getTitle(){
         String title="";
         SQLiteDatabase db=this.getReadableDatabase();
-        Cursor cursor = db.query("Товары",new String[]{"Наименование"},null,null,null,null,null);
+        Cursor cursor = db.query("Пользователи",new String[]{"ФИО"},null,null,null,null,null);
+        //cursor.moveToFirst();
         while (cursor.moveToNext()){
-            int index=cursor.getColumnIndex("Наименование");
+            int index=cursor.getColumnIndex("ФИО");
             title+=cursor.getString(index)+"\n";
 
         }
@@ -99,4 +102,28 @@ public class DBHelper extends SQLiteOpenHelper {
         db.close();
         return title;
     }
+
+    public void insertUser(String mail, String pass, String name, String date){
+        SQLiteDatabase db=this.getWritableDatabase();
+        ContentValues cv=new ContentValues();
+        cv.put("Почта",mail);
+        cv.put("Пароль",pass);
+        cv.put("ФИО",name);
+        cv.put("Дата",date);
+        db.insertWithOnConflict("Пользователи",null,cv,SQLiteDatabase.CONFLICT_REPLACE);
+    }
+    public String getLastUserID(){
+        String lastID="";
+        SQLiteDatabase db=this.getReadableDatabase();
+        Cursor cursor = db.query("Пользователи",new String[]{"ID"},null,null,null,null,null);
+        cursor.moveToFirst();
+        int index=cursor.getColumnIndex("ID");
+        lastID=cursor.getString(index);
+        return lastID;
+    }
 }
+
+
+
+
+
