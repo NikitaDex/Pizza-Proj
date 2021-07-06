@@ -87,7 +87,6 @@ com/study/pizzaapp/databinding/ActivityEnterBinding.java
  com.study.pizzaapp.databinding.ActivityEnterBinding
 com/study/pizzaapp/ZakazActivity.java
  com.study.pizzaapp.ZakazActivity
- com.study.pizzaapp.ZakazActivity$1
 com/study/pizzaapp/basket.java
  com.study.pizzaapp.basket
 com/study/pizzaapp/data/LoginRepository.java
