@@ -98,18 +98,18 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void TelClick(View view) {
-        Intent Telegram = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/MyLittleSweetPig"));
+        Intent Telegram = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/pizzayummy1"));
         startActivity(Telegram);
     }
 
-    public void WhatsClick(View view) {
-        Intent WhatsApp = new Intent(Intent.ACTION_VIEW, Uri.parse("https://wa.me/"));
-        startActivity(WhatsApp);
+    public void VkClick(View view) {
+        Intent VK = new Intent(Intent.ACTION_VIEW, Uri.parse("https://vk.com/public205502480"));
+        startActivity(VK);
     }
 
-    public void EmailClick(View view) {
-        Intent Email = new Intent("com.study.pizzaapp.Enter_activity");
-        startActivity(Email); //  https://mail.ru/
+    public void WebClick(View view) {
+        Intent WEB = new Intent("com.study.pizzaapp.Enter_activity");
+        startActivity(WEB); //  https://mail.ru/
     }
 
 

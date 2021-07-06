@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PizzaApp</string>
+    <string name="app_name">CheryPizza</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">ФИО</string>
@@ -14,8 +14,8 @@
     <string name="menu_contacts">Контакты</string>
     <string name="menu_personal">Личный кабинет</string>
     <string name="btn_tel">Telegram</string>
-    <string name="btn_whats">WhatsApp</string>
-    <string name="btn_email">Email</string>
+    <string name="btn_vk">VK</string>
+    <string name="btn_web">Web</string>
     <string name="tele_help">Телефон поддержки:</string>
     <string name="number">+7912819436</string>
 

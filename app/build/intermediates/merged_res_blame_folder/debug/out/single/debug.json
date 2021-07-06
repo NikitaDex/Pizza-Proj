@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_coupons.xml"
     },
     {
-        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_personal.xml.flat",
-        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_personal.xml"
-    },
-    {
         "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
         "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_personal.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_personal.xml"
     },
     {
         "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_promotions.xml.flat",
@@ -184,6 +184,10 @@
         "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_web.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_web.xml"
+    },
+    {
         "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_cont_pizza.xml.flat",
         "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cont_pizza.xml"
     },
@@ -246,6 +250,10 @@
     {
         "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
         "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vk.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_vk.xml"
     },
     {
         "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contacts.xml.flat",
