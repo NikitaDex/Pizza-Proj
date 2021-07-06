@@ -59,15 +59,16 @@
         android:backgroundTint="@color/black"
         android:enabled="true"
         android:fontFamily="@font/montserrat_bold"
+        android:onClick="enter_btn"
         android:text="@string/action_sign_in"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
+
+
         app:layout_constraintTop_toBottomOf="@+id/password"
-
-
         app:layout_constraintVertical_bias="0.2" />
 
     <Button

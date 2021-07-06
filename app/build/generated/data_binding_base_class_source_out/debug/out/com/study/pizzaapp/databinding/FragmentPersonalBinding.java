@@ -31,13 +31,16 @@ public final class FragmentPersonalBinding implements ViewBinding {
   public final EditText address;
 
   @NonNull
-  public final Button button4;
-
-  @NonNull
   public final EditText card;
 
   @NonNull
   public final ImageView imageView2;
+
+  @NonNull
+  public final Button leave;
+
+  @NonNull
+  public final Button saveChanges;
 
   @NonNull
   public final TextView textView10;
@@ -58,17 +61,18 @@ public final class FragmentPersonalBinding implements ViewBinding {
   public final TextView textView9;
 
   private FragmentPersonalBinding(@NonNull FrameLayout rootView, @NonNull EditText EmailAddress,
-      @NonNull EditText Number, @NonNull EditText address, @NonNull Button button4,
-      @NonNull EditText card, @NonNull ImageView imageView2, @NonNull TextView textView10,
-      @NonNull TextView textView11, @NonNull TextView textView12, @NonNull TextView textView7,
-      @NonNull TextView textView8, @NonNull TextView textView9) {
+      @NonNull EditText Number, @NonNull EditText address, @NonNull EditText card,
+      @NonNull ImageView imageView2, @NonNull Button leave, @NonNull Button saveChanges,
+      @NonNull TextView textView10, @NonNull TextView textView11, @NonNull TextView textView12,
+      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
     this.EmailAddress = EmailAddress;
     this.Number = Number;
     this.address = address;
-    this.button4 = button4;
     this.card = card;
     this.imageView2 = imageView2;
+    this.leave = leave;
+    this.saveChanges = saveChanges;
     this.textView10 = textView10;
     this.textView11 = textView11;
     this.textView12 = textView12;
@@ -122,12 +126,6 @@ public final class FragmentPersonalBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button4;
-      Button button4 = rootView.findViewById(id);
-      if (button4 == null) {
-        break missingId;
-      }
-
       id = R.id.card;
       EditText card = rootView.findViewById(id);
       if (card == null) {
@@ -137,6 +135,18 @@ public final class FragmentPersonalBinding implements ViewBinding {
       id = R.id.imageView2;
       ImageView imageView2 = rootView.findViewById(id);
       if (imageView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.leave;
+      Button leave = rootView.findViewById(id);
+      if (leave == null) {
+        break missingId;
+      }
+
+      id = R.id.save_changes;
+      Button saveChanges = rootView.findViewById(id);
+      if (saveChanges == null) {
         break missingId;
       }
 
@@ -177,8 +187,8 @@ public final class FragmentPersonalBinding implements ViewBinding {
       }
 
       return new FragmentPersonalBinding((FrameLayout) rootView, EmailAddress, Number, address,
-          button4, card, imageView2, textView10, textView11, textView12, textView7, textView8,
-          textView9);
+          card, imageView2, leave, saveChanges, textView10, textView11, textView12, textView7,
+          textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

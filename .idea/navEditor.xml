@@ -8,18 +8,6 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="nav_basket">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="-389" />
-                            <option name="y" value="335" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
                   <entry key="nav_contacts">
                     <value>
                       <LayoutPositions>
@@ -99,6 +87,18 @@
                           <Point>
                             <option name="x" value="-128" />
                             <option name="y" value="-733" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="zakazActivity">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-449" />
+                            <option name="y" value="343" />
                           </Point>
                         </option>
                       </LayoutPositions>

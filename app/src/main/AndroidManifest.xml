@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaApp">
-        <activity android:name=".Mashroom_pizza"
+        <activity android:name=".Enter_activity"
+            android:label="@string/title_activity_login">>
+            <intent-filter>
+            <action android:name="com.study.pizzaapp.Enter_activity" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter></activity>
+        <activity
+            android:name=".Mashroom_pizza"
             android:label="Ветчина и грибы">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Mashroom_pizza" />
@@ -17,7 +25,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Fresh_pizza"
+        <activity
+            android:name=".Fresh_pizza"
             android:label="Пепперони Фреш">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Fresh_pizza" />
@@ -25,7 +34,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Four_season"
+        <activity
+            android:name=".Four_season"
             android:label="Четыре сезона">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Four_season" />
@@ -33,7 +43,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Chees_pizza"
+        <activity
+            android:name=".Chees_pizza"
             android:label="Сырная">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Chees_pizza" />
@@ -41,7 +52,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Carbonara"
+        <activity
+            android:name=".Carbonara"
             android:label="Карбонара">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Carbonara" />
