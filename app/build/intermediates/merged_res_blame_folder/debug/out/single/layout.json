@@ -36,6 +36,10 @@
         "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_enter.xml",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_enter.xml"
+    },
+    {
         "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
         "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
