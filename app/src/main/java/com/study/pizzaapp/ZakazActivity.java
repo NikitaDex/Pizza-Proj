@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.AdapterView.OnItemSelectedListener;
 
 public class ZakazActivity extends AppCompatActivity {
 
@@ -27,6 +28,24 @@ public class ZakazActivity extends AppCompatActivity {
         DostavkaAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         Spinner spinner1 = (Spinner) findViewById(R.id.spinner1); // объявляем список
         spinner1.setAdapter(DostavkaAdapter); // присваиваем списку адаптер
+        spinner1.setOnItemSelectedListener(new OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+                // your code here
+                if (spinner1.getSelectedItem().toString().equals("доставка")) {
+                    result.setText(Integer.toString(BasketActivity.getResult() + 200));
+                }
+                else {
+                    result.setText(Integer.toString(BasketActivity.getResult()));
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parentView) {
+                // your code here
+            }
+
+        });
 
         ArrayAdapter<String> OplataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, oplata); // адаптер, в котором хранится массив оплаты
         OplataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
