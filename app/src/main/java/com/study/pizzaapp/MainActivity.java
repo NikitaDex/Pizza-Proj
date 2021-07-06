@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void EmailClick(View view) {
-        Intent Email = new Intent("com.study.pizzaapp.ui.login.LoginActivity");
+        Intent Email = new Intent("com.study.pizzaapp.Enter_activity");
         startActivity(Email); //  https://mail.ru/
     }
 

@@ -19,6 +19,7 @@ public class Enter_activity extends AppCompatActivity {
         startActivity(Reg);
     }
 
+
     public void enter_btn(View view) {
         Intent Enter = new Intent("com.study.pizzaapp.MainActivity");
         startActivity(Enter);
