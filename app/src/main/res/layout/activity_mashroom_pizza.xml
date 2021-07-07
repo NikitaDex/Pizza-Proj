@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@drawable/pizza4" />
 
     <TextView
         android:id="@+id/textView29"
@@ -42,7 +42,7 @@
         android:layout_marginTop="31dp"
         android:layout_marginBottom="352dp"
         android:fontFamily="@font/montserrat_bold"
-        android:text="томатный соус, томаты, ветчина, шампиньоны, сыр моцарелла, сыр пармезан "
+        android:text="Томатный соус, томаты, ветчина, шампиньоны, сыр моцарелла, сыр пармезан "
         android:textColor="@color/black"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
