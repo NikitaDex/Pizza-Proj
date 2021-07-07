@@ -84,6 +84,7 @@ public class RegisterWindow extends AppCompatActivity {
                     "-",
                     birthday.getText().toString(),
                     mDBHelper.getLastUserID());
+            user.setAuthorization(true);
             user.Save();
             Intent MainActivity = new Intent("com.study.pizzaapp.ZakazActivity");
             startActivity(MainActivity);

@@ -35,6 +35,7 @@ public class Authorization implements Serializable {
     private String address;
     private String birthday;
     private String ID;
+    private boolean isAuthorized;
 
     //////////////////Геттеры/////////////////////
     public String getName() {
@@ -96,6 +97,12 @@ public class Authorization implements Serializable {
         user.Save();
     }
 
+    public void setAuthorization(boolean isAuthorized) {
+        Authorization user = Authorization.Load(context);
+        user.isAuthorized = isAuthorized;
+        user.Save();
+    }
+
     //////////////////Проверка наличия поля/////////////////////
     public boolean haveName() {
         if (name != "-") {
@@ -138,6 +145,9 @@ public class Authorization implements Serializable {
             return true;
         }
         return false;
+    }
+    public boolean isAuthorized() {
+        return isAuthorized;
     }
 
     public void Save() {
