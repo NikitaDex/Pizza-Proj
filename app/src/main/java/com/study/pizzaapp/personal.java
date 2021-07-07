@@ -151,7 +151,7 @@ public class personal extends Fragment {
                 mDBHelper.updateUser(user.getID(), email.getText().toString(),
                         number.getText().toString(), address.getText().toString(), card.getText().toString());
             }
-        })
+        });
         //ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,name); // в этом адаптере хранится массив
 
         //lvMain.setAdapter(adapter); // присваиваем списку массив
