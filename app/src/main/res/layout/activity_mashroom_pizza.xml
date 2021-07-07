@@ -8,11 +8,11 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="410dp"
+        android:layout_width="match_parent"
         android:layout_height="193dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -20,9 +20,9 @@
 
     <TextView
         android:id="@+id/textView29"
-        android:layout_width="143dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30sp"
         android:layout_height="36dp"
-        android:layout_marginTop="31dp"
         android:layout_marginBottom="480dp"
         android:fontFamily="@font/montserrat_bold"
         android:text="Состав"
@@ -30,16 +30,16 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintHorizontal_bias="0.033"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView30"
-        android:layout_width="401dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30sp"
         android:layout_height="101dp"
-        android:layout_marginTop="31dp"
         android:layout_marginBottom="352dp"
         android:fontFamily="@font/montserrat_bold"
         android:text="Томатный соус, томаты, ветчина, шампиньоны, сыр моцарелла, сыр пармезан "
@@ -47,8 +47,8 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.167" />
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.74" />
 </androidx.constraintlayout.widget.ConstraintLayout>
