@@ -6,6 +6,7 @@ import android.content.res.AssetManager;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.database.DatabaseErrorHandler;
+import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
@@ -88,6 +89,8 @@ public class personal extends Fragment {
     EditText address, email, number, card;
     Button saveChange;
 
+    private DBHelper mDBHelper;
+    private SQLiteDatabase mDb;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -117,6 +120,21 @@ public class personal extends Fragment {
         saveChange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mDBHelper = new DBHelper(getContext().getApplicationContext());
+                mDBHelper.getWritableDatabase();
+
+                try {
+                    mDBHelper.updateDataBase();
+                } catch (IOException mIOException) {
+                    throw new Error("UnableToUpdateDatabase");
+                }
+
+                try {
+                    mDb = mDBHelper.getWritableDatabase();
+                } catch (SQLException mSQLException) {
+                    throw mSQLException;
+                }
+
                 Authorization user = Authorization.Load(getContext().getApplicationContext());
                 if (address.getText().toString().length() != 0) {
                     user.setAddress(address.getText().toString());
@@ -130,8 +148,10 @@ public class personal extends Fragment {
                 if (card.getText().toString().length() != 0) {
                     user.setCardNumber(card.getText().toString());
                 }
+                mDBHelper.updateUser(user.getID(), email.getText().toString(),
+                        number.getText().toString(), address.getText().toString(), card.getText().toString());
             }
-        });
+        })
         //ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,name); // в этом адаптере хранится массив
 
         //lvMain.setAdapter(adapter); // присваиваем списку массив
