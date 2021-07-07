@@ -12,23 +12,26 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <ImageButton
             android:id="@+id/carb_view"
             android:layout_width="350sp"
-            android:layout_height="223sp"
+            android:layout_height="180sp"
             android:layout_marginTop="30sp"
             android:onClick="carb_btn"
             android:layout_marginHorizontal="30sp"
-            android:src="@drawable/skidka_1_photo" />
+            android:src="@drawable/carbonara"
+
+            />
         <ImageButton
             android:id="@+id/cheese_view"
             android:layout_marginTop="30sp"
             android:layout_below="@+id/carb_view"
             android:layout_width="350sp"
-            android:layout_height="234sp"
+            android:layout_height="180sp"
             android:onClick="chees_btn"
             android:layout_marginHorizontal="30sp"
-            android:src="@drawable/skidka_2_photo"
+            android:src="@drawable/cheese"
             />
 
         <ImageButton
@@ -36,10 +39,10 @@
             android:layout_marginTop="30sp"
             android:layout_below="@+id/cheese_view"
             android:layout_width="350sp"
-            android:layout_height="234sp"
+            android:layout_height="180sp"
             android:onClick="fresh_btn"
             android:layout_marginHorizontal="30sp"
-            android:src="@drawable/skidka_2_photo"
+            android:src="@drawable/pepperoni_fresh"
             />
 
         <ImageButton
@@ -47,22 +50,20 @@
             android:layout_marginTop="30sp"
             android:layout_below="@+id/fresh_view"
             android:layout_width="350sp"
-            android:layout_height="234sp"
+            android:layout_height="180sp"
             android:onClick="mash_btn"
             android:layout_marginHorizontal="30sp"
-            android:src="@drawable/skidka_2_photo"
-            />
+            android:src="@drawable/ham_and_mushrooms" />
 
         <ImageButton
             android:id="@+id/four_view"
             android:layout_marginTop="30sp"
             android:layout_below="@+id/mash_view"
             android:layout_width="350sp"
-            android:layout_height="234sp"
+            android:layout_height="180sp"
             android:onClick="four_season_btn"
             android:layout_marginHorizontal="30sp"
-            android:src="@drawable/skidka_2_photo"
-            />
+            android:src="@drawable/four_seasons" />
 
 
     <TextView

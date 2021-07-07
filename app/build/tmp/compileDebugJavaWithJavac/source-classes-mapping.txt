@@ -4,8 +4,8 @@ com/study/pizzaapp/databinding/ActivityMainBinding.java
  com.study.pizzaapp.databinding.ActivityMainBinding
 com/study/pizzaapp/databinding/ActivityCheesPizzaBinding.java
  com.study.pizzaapp.databinding.ActivityCheesPizzaBinding
-com/study/pizzaapp/ui/home/HomeViewModel.java
- com.study.pizzaapp.ui.home.HomeViewModel
+com/study/pizzaapp/Enter_activity.java
+ com.study.pizzaapp.Enter_activity
 com/study/pizzaapp/Fresh_pizza.java
  com.study.pizzaapp.Fresh_pizza
 com/study/pizzaapp/databinding/ActivityFreshPizzaBinding.java
@@ -77,8 +77,8 @@ com/study/pizzaapp/ui/login/LoginFormState.java
 com/study/pizzaapp/ui/home/HomeFragment.java
  com.study.pizzaapp.ui.home.HomeFragment
  com.study.pizzaapp.ui.home.HomeFragment$1
-com/study/pizzaapp/ui/login/LoggedInUserView.java
- com.study.pizzaapp.ui.login.LoggedInUserView
+com/study/pizzaapp/Authorization.java
+ com.study.pizzaapp.Authorization
 com/study/pizzaapp/databinding/FragmentBasketBinding.java
  com.study.pizzaapp.databinding.FragmentBasketBinding
 com/study/pizzaapp/cupons.java
@@ -122,9 +122,9 @@ com/study/pizzaapp/ui/login/LoginViewModel.java
 com/study/pizzaapp/MainActivity.java
  com.study.pizzaapp.MainActivity
  com.study.pizzaapp.MainActivity$1
-com/study/pizzaapp/Authorization.java
- com.study.pizzaapp.Authorization
-com/study/pizzaapp/Enter_activity.java
- com.study.pizzaapp.Enter_activity
+com/study/pizzaapp/ui/login/LoggedInUserView.java
+ com.study.pizzaapp.ui.login.LoggedInUserView
 com/study/pizzaapp/RegisterWindow.java
  com.study.pizzaapp.RegisterWindow
+com/study/pizzaapp/ui/home/HomeViewModel.java
+ com.study.pizzaapp.ui.home.HomeViewModel
