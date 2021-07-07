@@ -40,7 +40,7 @@
         android:layout_marginTop="26dp"
         android:layout_marginEnd="91dp"
         android:layout_marginBottom="401dp"
-        android:background="@color/white"
+        android:background="@drawable/rounder"
         android:onClick="TelClick"
 
 
@@ -61,15 +61,15 @@
         android:layout_marginTop="26dp"
         android:layout_marginEnd="92dp"
         android:layout_marginBottom="325dp"
-        android:background="@color/white"
-        android:onClick="WhatsClick"
+        android:background="@drawable/rounder"
+        android:onClick="VkClick"
 
 
-        android:text="@string/btn_whats"
+        android:text="@string/btn_vk"
         android:textAllCaps="false"
         android:fontFamily="@font/montserrat_bold"
         android:textColor="@color/black"
-        app:icon="@drawable/ic_whatsapp"
+        app:icon="@drawable/ic_vk"
         app:iconSize="45dp" />
 
     <Button
@@ -83,15 +83,15 @@
         android:layout_marginTop="26dp"
         android:layout_marginEnd="93dp"
         android:layout_marginBottom="247dp"
-        android:background="@color/white"
+        android:background="@drawable/rounder"
 
 
-        android:onClick="EmailClick"
-        android:text="@string/btn_email"
+        android:onClick="WebClick"
+        android:text="@string/btn_web"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:fontFamily="@font/montserrat_bold"
-        app:icon="@drawable/ic_email"
+        app:icon="@drawable/ic_web"
         app:iconSize="45dp" />
 
     <TextView

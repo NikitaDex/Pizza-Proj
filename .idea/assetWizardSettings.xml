@@ -379,8 +379,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_spoon" />
-                            <entry key="sourceFile" value="C:\Users\Nikita\Desktop\email.svg" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_web" />
+                            <entry key="sourceFile" value="C:\Users\Nikita\Desktop\web.svg" />
                           </map>
                         </option>
                       </PersistentState>
