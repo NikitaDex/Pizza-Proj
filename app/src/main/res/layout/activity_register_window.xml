@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/rounder"
-            android:onClick="register_btn"
+            android:onClick="OnRegButtonClick"
             android:text="Зарегистрироваться"
             android:textColor="@color/black" />
     </LinearLayout>
