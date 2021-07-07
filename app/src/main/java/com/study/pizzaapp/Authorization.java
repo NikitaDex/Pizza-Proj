@@ -59,6 +59,9 @@ public class Authorization implements Serializable {
     public String getBirthday() {
         return birthday;
     }
+    public String getID() {
+        return ID;
+    }
 
     //////////////////Сеттеры/////////////////////
     public void setName(String name) {

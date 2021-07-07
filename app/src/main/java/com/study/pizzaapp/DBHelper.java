@@ -13,6 +13,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.ArrayList;
 
 public class DBHelper extends SQLiteOpenHelper {
 
@@ -93,7 +94,8 @@ public class DBHelper extends SQLiteOpenHelper {
         SQLiteDatabase db=this.getReadableDatabase();
         Cursor cursor = db.query("Пользователи",new String[]{"*"},null,null,null,null,null);
         //cursor.moveToFirst();
-        while (cursor.moveToNext()){
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()){
             int index=cursor.getColumnIndex("ID");
             title+=cursor.getString(index)+"\n";
 
@@ -114,6 +116,7 @@ public class DBHelper extends SQLiteOpenHelper {
             index = cursor.getColumnIndex("Пароль");
             System.out.println(cursor.getString(index)+" ");
 
+            cursor.moveToNext();
         }
         cursor.close();
         db.close();
@@ -132,7 +135,27 @@ public class DBHelper extends SQLiteOpenHelper {
         cv.put("Адрес","-");
         cv.put("Карта","-");
         db.insertWithOnConflict("Пользователи",null,cv,SQLiteDatabase.CONFLICT_REPLACE);
+        db.close();
     }
+    public void updateUser(String ID, String mail, String phone, String address, String card){
+        SQLiteDatabase db=this.getReadableDatabase();
+        ContentValues cv=new ContentValues();
+        cv.put("Почта",mail);
+        cv.put("Телефон",phone);
+        cv.put("Адрес",address);
+        cv.put("Карта",card);
+        db.updateWithOnConflict("Пользователи",cv,"ID="+ID,null,SQLiteDatabase.CONFLICT_REPLACE);
+        db.close();
+    }
+
+//    public ArrayList<String> getMail(){
+//        ArrayList<String> arrayList;
+//
+//
+//        return arrayList;
+//    }
+
+
     public String getLastUserID(){
         String lastID="";
         SQLiteDatabase db=this.getReadableDatabase();
