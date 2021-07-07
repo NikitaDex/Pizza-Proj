@@ -2,16 +2,17 @@ com/study/pizzaapp/contacts.java
  com.study.pizzaapp.contacts
 com/study/pizzaapp/databinding/ActivityMainBinding.java
  com.study.pizzaapp.databinding.ActivityMainBinding
-com/study/pizzaapp/databinding/ActivityCheesPizzaBinding.java
- com.study.pizzaapp.databinding.ActivityCheesPizzaBinding
+com/study/pizzaapp/MainActivity.java
+ com.study.pizzaapp.MainActivity
+ com.study.pizzaapp.MainActivity$1
 com/study/pizzaapp/Enter_activity.java
  com.study.pizzaapp.Enter_activity
 com/study/pizzaapp/Fresh_pizza.java
  com.study.pizzaapp.Fresh_pizza
 com/study/pizzaapp/databinding/ActivityFreshPizzaBinding.java
  com.study.pizzaapp.databinding.ActivityFreshPizzaBinding
-com/study/pizzaapp/databinding/ActivityFourSeasonBinding.java
- com.study.pizzaapp.databinding.ActivityFourSeasonBinding
+com/study/pizzaapp/ui/login/LoggedInUserView.java
+ com.study.pizzaapp.ui.login.LoggedInUserView
 com/study/pizzaapp/BasketActivity.java
  com.study.pizzaapp.BasketActivity
  com.study.pizzaapp.BasketActivity$1
@@ -110,8 +111,8 @@ com/study/pizzaapp/databinding/FragmentPersonalBinding.java
  com.study.pizzaapp.databinding.FragmentPersonalBinding
 com/study/pizzaapp/databinding/FragmentHomeBinding.java
  com.study.pizzaapp.databinding.FragmentHomeBinding
-com/study/pizzaapp/databinding/ActivityMashroomPizzaBinding.java
- com.study.pizzaapp.databinding.ActivityMashroomPizzaBinding
+com/study/pizzaapp/RegisterWindow.java
+ com.study.pizzaapp.RegisterWindow
 com/study/pizzaapp/databinding/AppBarMainBinding.java
  com.study.pizzaapp.databinding.AppBarMainBinding
 com/study/pizzaapp/databinding/ContentMainBinding.java
@@ -120,12 +121,11 @@ com/study/pizzaapp/Chees_pizza.java
  com.study.pizzaapp.Chees_pizza
 com/study/pizzaapp/ui/login/LoginViewModel.java
  com.study.pizzaapp.ui.login.LoginViewModel
-com/study/pizzaapp/MainActivity.java
- com.study.pizzaapp.MainActivity
- com.study.pizzaapp.MainActivity$1
-com/study/pizzaapp/ui/login/LoggedInUserView.java
- com.study.pizzaapp.ui.login.LoggedInUserView
-com/study/pizzaapp/RegisterWindow.java
- com.study.pizzaapp.RegisterWindow
 com/study/pizzaapp/ui/home/HomeViewModel.java
  com.study.pizzaapp.ui.home.HomeViewModel
+com/study/pizzaapp/databinding/ActivityCheesPizzaBinding.java
+ com.study.pizzaapp.databinding.ActivityCheesPizzaBinding
+com/study/pizzaapp/databinding/ActivityMashroomPizzaBinding.java
+ com.study.pizzaapp.databinding.ActivityMashroomPizzaBinding
+com/study/pizzaapp/databinding/ActivityFourSeasonBinding.java
+ com.study.pizzaapp.databinding.ActivityFourSeasonBinding

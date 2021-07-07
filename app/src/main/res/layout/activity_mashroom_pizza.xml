@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,12 +10,6 @@
         android:id="@+id/imageView8"
         android:layout_width="match_parent"
         android:layout_height="193dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/pizza4" />
 
     <TextView
@@ -24,33 +18,23 @@
         android:layout_marginLeft="30sp"
         android:layout_height="36dp"
         android:layout_marginTop="31dp"
-        android:layout_marginBottom="480dp"
         android:fontFamily="@font/montserrat_bold"
         android:text="Состав"
         android:textColor="@color/black"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.033"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="1.0" />
+     android:layout_below="@id/imageView8" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="match_parent"
         android:layout_marginLeft="30sp"
         android:layout_marginRight="30sp"
+        android:layout_marginTop="30sp"
         android:layout_height="101dp"
         android:layout_marginBottom="352dp"
         android:fontFamily="@font/montserrat_bold"
         android:text="Томатный соус, томаты, ветчина, шампиньоны, сыр моцарелла, сыр пармезан "
         android:textColor="@color/black"
         android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
-        app:layout_constraintStart_toStartOf="@+id/textView29"
-        app:layout_constraintTop_toBottomOf="@+id/textView29"
-        app:layout_constraintVertical_bias="0.74" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_below="@id/textView29" />
+</RelativeLayout>

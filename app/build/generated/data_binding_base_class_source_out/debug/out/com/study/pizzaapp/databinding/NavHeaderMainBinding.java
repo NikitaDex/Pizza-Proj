@@ -23,13 +23,17 @@ public final class NavHeaderMainBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
-  public final TextView textView;
+  public final TextView userName;
+
+  @NonNull
+  public final TextView userPhone;
 
   private NavHeaderMainBinding(@NonNull LinearLayout rootView, @NonNull ImageView imageView,
-      @NonNull TextView textView) {
+      @NonNull TextView userName, @NonNull TextView userPhone) {
     this.rootView = rootView;
     this.imageView = imageView;
-    this.textView = textView;
+    this.userName = userName;
+    this.userPhone = userPhone;
   }
 
   @Override
@@ -65,13 +69,19 @@ public final class NavHeaderMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = rootView.findViewById(id);
-      if (textView == null) {
+      id = R.id.user_name;
+      TextView userName = rootView.findViewById(id);
+      if (userName == null) {
         break missingId;
       }
 
-      return new NavHeaderMainBinding((LinearLayout) rootView, imageView, textView);
+      id = R.id.user_phone;
+      TextView userPhone = rootView.findViewById(id);
+      if (userPhone == null) {
+        break missingId;
+      }
+
+      return new NavHeaderMainBinding((LinearLayout) rootView, imageView, userName, userPhone);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
