@@ -28,6 +28,7 @@ public class Enter_activity extends AppCompatActivity {
 
     public void enter_btn(View view) {
         Authorization user = Authorization.Load(getApplicationContext());
+        user.printData();
         //System.out.println(user.getMail() + " " + user.getPassword());
         if (mail.getText().toString().equals(user.getMail()) &
                 password.getText().toString().equals(user.getPassword())) {

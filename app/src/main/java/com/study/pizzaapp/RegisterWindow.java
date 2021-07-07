@@ -86,6 +86,7 @@ public class RegisterWindow extends AppCompatActivity {
                     mDBHelper.getLastUserID());
             user.setAuthorization(true);
             user.Save();
+            user = Authorization.Load(getApplicationContext());
             Intent MainActivity = new Intent("com.study.pizzaapp.ZakazActivity");
             startActivity(MainActivity);
 

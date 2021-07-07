@@ -173,11 +173,12 @@ public class Authorization implements Serializable {
         catch (Exception ex) {
             ex.printStackTrace();
         }
-        return new Authorization(null,"-", "-", "-", "-", "-", "-", "-", "-");
+        return new Authorization(context,"-", "-", "-", "-", "-", "-", "-", "-");
     }
 
     public void printData() {
         System.out.println(name);
+        System.out.println(password);
         System.out.println(mail);
         System.out.println(phoneNumber);
         System.out.println(cardNumber);
