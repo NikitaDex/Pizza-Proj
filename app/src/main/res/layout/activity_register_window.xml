@@ -29,7 +29,7 @@
             android:ems="10"
             android:fontFamily="@font/montserrat_bold"
             android:hint="Электронная почта"
-            android:inputType="textPersonName"
+            android:inputType="textEmailAddress"
             android:textColor="@color/black" />
 
         <EditText
@@ -40,9 +40,9 @@
             android:layout_gravity="center"
             android:layout_marginBottom="30sp"
             android:ems="10"
+            android:inputType="textPassword"
             android:fontFamily="@font/montserrat_bold"
             android:hint="Пароль"
-            android:inputType="textPersonName"
             android:textColor="@color/black" />
 
         <EditText
@@ -55,7 +55,7 @@
             android:ems="10"
             android:fontFamily="@font/montserrat_bold"
             android:hint="Повторите пароль"
-            android:inputType="textPersonName"
+            android:inputType="textPassword"
             android:textColor="@color/black" />
 
         <EditText
@@ -81,7 +81,7 @@
             android:ems="10"
             android:fontFamily="@font/montserrat_bold"
             android:hint="Дата рождения"
-            android:inputType="textPersonName"
+            android:inputType="date"
             android:textColor="@color/black" />
 
         <Button
