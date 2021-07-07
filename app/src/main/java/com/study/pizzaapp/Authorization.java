@@ -98,50 +98,48 @@ public class Authorization implements Serializable {
     }
 
     public void setAuthorization(boolean isAuthorized) {
-        Authorization user = Authorization.Load(context);
-        user.isAuthorized = isAuthorized;
-        user.Save();
+        this.isAuthorized = isAuthorized;
     }
 
     //////////////////Проверка наличия поля/////////////////////
     public boolean haveName() {
-        if (name != "-") {
+        if (!name.equals("-")) {
             return true;
         }
         return false;
     }
     public boolean havePassword() {
-        if (password != "-") {
+        if (!password.equals("-")) {
             return true;
         }
         return false;
     }
     public boolean haveMail() {
-        if (mail != "-") {
+        if (!mail.equals("-")) {
             return true;
         }
         return false;
     }
     public boolean havePhoneNumber() {
-        if (phoneNumber != "-") {
+        if (!phoneNumber.equals("-")) {
             return true;
         }
         return false;
     }
     public boolean haveCardNumber() {
-        if (cardNumber != "-") {
+        if (!cardNumber.equals("-")) {
             return true;
         }
         return false;
     }
     public boolean haveAddress() {
-        if (address != "-") {
+        if (!address.equals("-")) {
             return true;
         }
         return false;
     }
     public boolean haveBirthday() {
-        if (birthday != "-") {
+        if (!birthday.equals("-")) {
             return true;
         }
         return false;
@@ -165,6 +163,7 @@ public class Authorization implements Serializable {
     }
     public static Authorization Load(Context context) {
         try {
+            Authorization.context = context;
             FileInputStream fileIn = context.openFileInput("authorization.ser");
             ObjectInputStream is = new ObjectInputStream(fileIn);
             //fileIn.close();

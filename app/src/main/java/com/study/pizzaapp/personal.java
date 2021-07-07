@@ -1,12 +1,41 @@
 package com.study.pizzaapp;
 
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
+import android.content.res.AssetManager;
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.database.DatabaseErrorHandler;
+import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import android.content.Intent;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.UserHandle;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.content.ContextWrapper;
+import android.widget.Button;
+import android.widget.EditText;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -55,10 +84,77 @@ public class personal extends Fragment {
         }
     }
 
+    TextView personalName, pesonalBirthday;
+    EditText address, email, number, card;
+    Button saveChange;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_personal, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_personal, container, false); // это чтобы отображалось
+
+        personalName = (TextView) rootView.findViewById(R.id.personalName); // объявляем поле для списка
+        pesonalBirthday = (TextView) rootView.findViewById(R.id.pesonalBirthday);
+        address=(EditText)rootView.findViewById(R.id.address);
+        email=(EditText)rootView.findViewById(R.id.EmailAddress);
+        number=(EditText)rootView.findViewById(R.id.Number);
+        card=(EditText)rootView.findViewById(R.id.card);
+        saveChange = (Button)rootView.findViewById(R.id.save_changes);
+        Authorization user = Authorization.Load(getContext().getApplicationContext());
+        personalName.setText(user.getName());
+        pesonalBirthday.setText(user.getBirthday());
+        if (user.haveAddress()) {
+            address.setText(user.getAddress());
+        }
+        email.setText(user.getMail());
+        if (user.havePhoneNumber()) {
+            number.setText(user.getPhoneNumber());
+        }
+        if (user.haveCardNumber()) {
+            card.setText(user.getCardNumber());
+        }
+        saveChange.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Authorization user = Authorization.Load(getContext().getApplicationContext());
+                if (address.getText().toString().length() != 0) {
+                    user.setAddress(address.getText().toString());
+                }
+                if (email.getText().toString().length() != 0) {
+                    user.setMail(email.getText().toString());
+                }
+                if (number.getText().toString().length() != 0) {
+                    user.setPhoneNumber(number.getText().toString());
+                }
+                if (card.getText().toString().length() != 0) {
+                    user.setCardNumber(card.getText().toString());
+                }
+            }
+        });
+        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,name); // в этом адаптере хранится массив
+
+        //lvMain.setAdapter(adapter); // присваиваем списку массив
+
+        // Inflate the layout for this fragment
+        return rootView;
     }
+    /*
+    public void onSaveChangesClick(View view) {
+        Authorization user = Authorization.Load(getContext().getApplicationContext());
+        if (address.getText().toString().length() != 0) {
+            user.setAddress(address.getText().toString());
+        }
+        if (email.getText().toString().length() != 0) {
+            user.setMail(email.getText().toString());
+        }
+        if (number.getText().toString().length() != 0) {
+            user.setPhoneNumber(number.getText().toString());
+        }
+        if (card.getText().toString().length() != 0) {
+            user.setCardNumber(card.getText().toString());
+        }
+        Intent Oformit = new Intent("com.study.pizzaapp.MainActivity");
+        startActivity(Oformit);
+    }*/
 }

@@ -103,6 +103,7 @@ com/study/pizzaapp/DBHelper.java
  com.study.pizzaapp.DBHelper
 com/study/pizzaapp/personal.java
  com.study.pizzaapp.personal
+ com.study.pizzaapp.personal$1
 com/study/pizzaapp/databinding/FragmentContactsBinding.java
  com.study.pizzaapp.databinding.FragmentContactsBinding
 com/study/pizzaapp/databinding/FragmentPersonalBinding.java
