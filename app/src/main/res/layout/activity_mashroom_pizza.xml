@@ -39,6 +39,7 @@
         android:id="@+id/textView30"
         android:layout_width="match_parent"
         android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
         android:layout_height="101dp"
         android:layout_marginBottom="352dp"
         android:fontFamily="@font/montserrat_bold"
