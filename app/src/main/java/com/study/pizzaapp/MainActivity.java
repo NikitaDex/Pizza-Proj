@@ -86,6 +86,11 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+        TextView user_name = (TextView)findViewById(R.id.user_name);
+        TextView user_phone = (TextView)findViewById(R.id.user_phone);
+        Authorization user = Authorization.Load(getApplicationContext());
+        user_name.setText(user.getName());
+        user_phone.setText(user.getPhoneNumber());
         return true;
     }
 
