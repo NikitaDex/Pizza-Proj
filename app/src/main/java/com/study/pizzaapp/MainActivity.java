@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(info);
 
         // mDBHelper.insertUser("msdfokljsdf","12345678","Валерий Назаргулов","29.09.01");
-        System.out.println(mDBHelper.getTitle());
+        mDBHelper.getTitle();
     }
 
     public void chees_btn(View view) {

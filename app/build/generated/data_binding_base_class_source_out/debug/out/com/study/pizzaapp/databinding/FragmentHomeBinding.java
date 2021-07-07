@@ -4,8 +4,9 @@ package com.study.pizzaapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,66 +18,36 @@ import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
-  public final ImageView carbView;
+  public final ImageButton carbView;
 
   @NonNull
-  public final ImageView cheeseView;
+  public final ImageButton cheeseView;
 
   @NonNull
-  public final ImageView fourView;
+  public final ImageButton fourView;
 
   @NonNull
-  public final ImageView freshView;
+  public final ImageButton freshView;
 
   @NonNull
-  public final ImageView mashView;
+  public final ImageButton mashView;
 
   @NonNull
-  public final RelativeLayout menuWindow;
+  public final ScrollView menuWindow;
+
+  @NonNull
+  public final RelativeLayout relaone;
 
   @NonNull
   public final TextView textHome;
 
-  @NonNull
-  public final TextView textView13;
-
-  @NonNull
-  public final TextView textView14;
-
-  @NonNull
-  public final TextView textView15;
-
-  @NonNull
-  public final TextView textView16;
-
-  @NonNull
-  public final TextView textView17;
-
-  @NonNull
-  public final TextView textView18;
-
-  @NonNull
-  public final TextView textView19;
-
-  @NonNull
-  public final TextView textView20;
-
-  @NonNull
-  public final TextView textView5;
-
-  @NonNull
-  public final TextView textView6;
-
-  private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull ImageView carbView,
-      @NonNull ImageView cheeseView, @NonNull ImageView fourView, @NonNull ImageView freshView,
-      @NonNull ImageView mashView, @NonNull RelativeLayout menuWindow, @NonNull TextView textHome,
-      @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView15,
-      @NonNull TextView textView16, @NonNull TextView textView17, @NonNull TextView textView18,
-      @NonNull TextView textView19, @NonNull TextView textView20, @NonNull TextView textView5,
-      @NonNull TextView textView6) {
+  private FragmentHomeBinding(@NonNull ScrollView rootView, @NonNull ImageButton carbView,
+      @NonNull ImageButton cheeseView, @NonNull ImageButton fourView,
+      @NonNull ImageButton freshView, @NonNull ImageButton mashView, @NonNull ScrollView menuWindow,
+      @NonNull RelativeLayout relaone, @NonNull TextView textHome) {
     this.rootView = rootView;
     this.carbView = carbView;
     this.cheeseView = cheeseView;
@@ -84,22 +55,13 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.freshView = freshView;
     this.mashView = mashView;
     this.menuWindow = menuWindow;
+    this.relaone = relaone;
     this.textHome = textHome;
-    this.textView13 = textView13;
-    this.textView14 = textView14;
-    this.textView15 = textView15;
-    this.textView16 = textView16;
-    this.textView17 = textView17;
-    this.textView18 = textView18;
-    this.textView19 = textView19;
-    this.textView20 = textView20;
-    this.textView5 = textView5;
-    this.textView6 = textView6;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -125,36 +87,42 @@ public final class FragmentHomeBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.carb_view;
-      ImageView carbView = rootView.findViewById(id);
+      ImageButton carbView = rootView.findViewById(id);
       if (carbView == null) {
         break missingId;
       }
 
       id = R.id.cheese_view;
-      ImageView cheeseView = rootView.findViewById(id);
+      ImageButton cheeseView = rootView.findViewById(id);
       if (cheeseView == null) {
         break missingId;
       }
 
       id = R.id.four_view;
-      ImageView fourView = rootView.findViewById(id);
+      ImageButton fourView = rootView.findViewById(id);
       if (fourView == null) {
         break missingId;
       }
 
       id = R.id.fresh_view;
-      ImageView freshView = rootView.findViewById(id);
+      ImageButton freshView = rootView.findViewById(id);
       if (freshView == null) {
         break missingId;
       }
 
       id = R.id.mash_view;
-      ImageView mashView = rootView.findViewById(id);
+      ImageButton mashView = rootView.findViewById(id);
       if (mashView == null) {
         break missingId;
       }
 
-      RelativeLayout menuWindow = (RelativeLayout) rootView;
+      ScrollView menuWindow = (ScrollView) rootView;
+
+      id = R.id.relaone;
+      RelativeLayout relaone = rootView.findViewById(id);
+      if (relaone == null) {
+        break missingId;
+      }
 
       id = R.id.text_home;
       TextView textHome = rootView.findViewById(id);
@@ -162,69 +130,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView13;
-      TextView textView13 = rootView.findViewById(id);
-      if (textView13 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView14;
-      TextView textView14 = rootView.findViewById(id);
-      if (textView14 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView15;
-      TextView textView15 = rootView.findViewById(id);
-      if (textView15 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView16;
-      TextView textView16 = rootView.findViewById(id);
-      if (textView16 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView17;
-      TextView textView17 = rootView.findViewById(id);
-      if (textView17 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView18;
-      TextView textView18 = rootView.findViewById(id);
-      if (textView18 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView19;
-      TextView textView19 = rootView.findViewById(id);
-      if (textView19 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView20;
-      TextView textView20 = rootView.findViewById(id);
-      if (textView20 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView5;
-      TextView textView5 = rootView.findViewById(id);
-      if (textView5 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView6;
-      TextView textView6 = rootView.findViewById(id);
-      if (textView6 == null) {
-        break missingId;
-      }
-
-      return new FragmentHomeBinding((RelativeLayout) rootView, carbView, cheeseView, fourView,
-          freshView, mashView, menuWindow, textHome, textView13, textView14, textView15, textView16,
-          textView17, textView18, textView19, textView20, textView5, textView6);
+      return new FragmentHomeBinding((ScrollView) rootView, carbView, cheeseView, fourView,
+          freshView, mashView, menuWindow, relaone, textHome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

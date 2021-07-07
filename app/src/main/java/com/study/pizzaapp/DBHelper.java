@@ -87,20 +87,37 @@ public class DBHelper extends SQLiteOpenHelper {
         if (newVersion > oldVersion)
             mNeedUpdate = true;
     }
-
-    public String getTitle(){
+//Метод, выводящий таблицу с пользователями в консоль
+    public void getTitle(){
         String title="";
         SQLiteDatabase db=this.getReadableDatabase();
-        Cursor cursor = db.query("Пользователи",new String[]{"ФИО"},null,null,null,null,null);
+        Cursor cursor = db.query("Пользователи",new String[]{"*"},null,null,null,null,null);
         //cursor.moveToFirst();
         while (cursor.moveToNext()){
-            int index=cursor.getColumnIndex("ФИО");
+            int index=cursor.getColumnIndex("ID");
             title+=cursor.getString(index)+"\n";
+
+            System.out.print(cursor.getString(index)+" ");
+
+            index = cursor.getColumnIndex("ФИО");
+            System.out.print(cursor.getString(index)+" ");
+            index = cursor.getColumnIndex("Дата");
+            System.out.print(cursor.getString(index)+" ");
+            index = cursor.getColumnIndex("Адрес");
+            System.out.print(cursor.getString(index)+" ");
+            index = cursor.getColumnIndex("Почта");
+            System.out.print(cursor.getString(index)+" ");
+            index = cursor.getColumnIndex("Телефон");
+            System.out.print(cursor.getString(index)+" ");
+            index = cursor.getColumnIndex("Карта");
+            System.out.print(cursor.getString(index)+" ");
+            index = cursor.getColumnIndex("Пароль");
+            System.out.println(cursor.getString(index)+" ");
 
         }
         cursor.close();
         db.close();
-        return title;
+        //return title;
     }
 
     public void insertUser(String mail, String pass, String name, String date){
@@ -110,6 +127,10 @@ public class DBHelper extends SQLiteOpenHelper {
         cv.put("Пароль",pass);
         cv.put("ФИО",name);
         cv.put("Дата",date);
+
+        cv.put("Телефон","-");
+        cv.put("Адрес","-");
+        cv.put("Карта","-");
         db.insertWithOnConflict("Пользователи",null,cv,SQLiteDatabase.CONFLICT_REPLACE);
     }
     public String getLastUserID(){
