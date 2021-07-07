@@ -87,7 +87,7 @@ public class personal extends Fragment {
 
     TextView personalName, pesonalBirthday;
     EditText address, email, number, card;
-    Button saveChange;
+    Button saveChange, accountExit;
 
     private DBHelper mDBHelper;
     private SQLiteDatabase mDb;
@@ -104,6 +104,7 @@ public class personal extends Fragment {
         number=(EditText)rootView.findViewById(R.id.Number);
         card=(EditText)rootView.findViewById(R.id.card);
         saveChange = (Button)rootView.findViewById(R.id.save_changes);
+        accountExit = (Button)rootView.findViewById(R.id.leave);
         Authorization user = Authorization.Load(getContext().getApplicationContext());
         personalName.setText(user.getName());
         pesonalBirthday.setText(user.getBirthday());
@@ -148,8 +149,34 @@ public class personal extends Fragment {
                 if (card.getText().toString().length() != 0) {
                     user.setCardNumber(card.getText().toString());
                 }
-                //mDBHelper.updateUser(user.getID(), email.getText().toString(),
-                //        number.getText().toString(), address.getText().toString(), card.getText().toString());
+                mDBHelper.updateUser(user.getID(), email.getText().toString(),
+                        number.getText().toString(), address.getText().toString(), card.getText().toString());
+            }
+        });
+        accountExit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mDBHelper = new DBHelper(getContext().getApplicationContext());
+                mDBHelper.getWritableDatabase();
+
+                try {
+                    mDBHelper.updateDataBase();
+                } catch (IOException mIOException) {
+                    throw new Error("UnableToUpdateDatabase");
+                }
+
+                try {
+                    mDb = mDBHelper.getWritableDatabase();
+                } catch (SQLException mSQLException) {
+                    throw mSQLException;
+                }
+
+                Authorization user = Authorization.Load(getContext().getApplicationContext());
+                user.EraseData();
+                mDBHelper.updateUser(user.getID(), email.getText().toString(),
+                        number.getText().toString(), address.getText().toString(), card.getText().toString());
+                Intent Enter = new Intent("com.study.pizzaapp.Enter_activity");
+                startActivity(Enter);
             }
         });
         //ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,name); // в этом адаптере хранится массив

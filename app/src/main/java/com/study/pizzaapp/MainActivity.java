@@ -89,8 +89,16 @@ public class MainActivity extends AppCompatActivity {
         TextView user_name = (TextView)findViewById(R.id.user_name);
         TextView user_phone = (TextView)findViewById(R.id.user_phone);
         Authorization user = Authorization.Load(getApplicationContext());
-        user_name.setText(user.getName());
-        user_phone.setText(user.getPhoneNumber());
+        if (user.haveName()) {
+            user_name.setText(user.getName());
+        } else {
+            user_name.setText("ФИО");
+        }
+        if (user.havePhoneNumber()) {
+            user_phone.setText(user.getPhoneNumber());
+        } else {
+            user_phone.setText("Номер телефона");
+        }
         return true;
     }
 

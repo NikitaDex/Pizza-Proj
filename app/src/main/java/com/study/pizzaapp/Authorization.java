@@ -178,6 +178,12 @@ public class Authorization implements Serializable {
         return new Authorization(context,"-", "-", "-", "-", "-", "-", "-", "-");
     }
 
+    public void EraseData() {
+        Authorization user = new Authorization(context, "-", "-", "-", "-", "-", "-", "-", "-");
+        user.setAuthorization(false);
+        user.Save();
+    }
+
     public void printData() {
         System.out.println(name);
         System.out.println(password);

@@ -4,16 +4,16 @@
         "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_camera.xml.flat",
-        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_telegram12.png.flat",
+        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_telegram12.png"
     },
     {
         "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_contacts_pizza.png.flat",
         "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_contacts_pizza.png"
     },
     {
-        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_telegram12.png.flat",
-        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_telegram12.png"
+        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
         "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza1.jpg.flat",
@@ -60,6 +60,10 @@
         "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order.xml.flat",
+        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_order.xml"
+    },
+    {
         "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
         "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
@@ -80,20 +84,20 @@
         "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_enter.xml.flat",
-        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_enter.xml"
-    },
-    {
-        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_telegram12_round.xml.flat",
+        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_telegram12_round.xml"
     },
     {
         "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cont_pizza.png.flat",
         "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cont_pizza.png"
     },
     {
-        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_telegram12_round.xml.flat",
-        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_telegram12_round.xml"
+        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_enter.xml.flat",
+        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_enter.xml"
     },
     {
         "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -152,12 +156,12 @@
         "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cont_pizza.png.flat",
-        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cont_pizza.png"
-    },
-    {
         "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
         "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cont_pizza.png.flat",
+        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cont_pizza.png"
     },
     {
         "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza2.jpg.flat",
@@ -186,6 +190,10 @@
     {
         "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_telegram12.xml.flat",
         "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_telegram12.xml"
+    },
+    {
+        "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_raw.xml.flat",
+        "source": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\src\\main\\res\\layout\\raw.xml"
     },
     {
         "merged": "C:\\Users\\maxym\\StudioProjects\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_slideshow.xml.flat",
