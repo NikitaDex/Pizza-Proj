@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void WebClick(View view) {
-        Intent WEB = new Intent("com.study.pizzaapp.Enter_activity");
+        Intent WEB = new Intent("com.study.pizzaapp.personal");
         startActivity(WEB); //  https://mail.ru/
     }
 
@@ -199,4 +199,6 @@ public class MainActivity extends AppCompatActivity {
             hasBeenClicked2 =false;
         }
     }
+
+
 }

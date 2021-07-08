@@ -43,7 +43,7 @@ import java.io.InputStream;
  * Use the {@link personal#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class personal extends Fragment {
+public class personal extends Fragment  {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -87,7 +87,7 @@ public class personal extends Fragment {
 
     TextView personalName, pesonalBirthday;
     EditText address, email, number, card;
-    Button saveChange, accountExit;
+    Button saveChange, accountExit, Order_btn;
 
     private DBHelper mDBHelper;
     private SQLiteDatabase mDb;
@@ -105,6 +105,7 @@ public class personal extends Fragment {
         card=(EditText)rootView.findViewById(R.id.card);
         saveChange = (Button)rootView.findViewById(R.id.save_changes);
         accountExit = (Button)rootView.findViewById(R.id.leave);
+        Order_btn = (Button)rootView.findViewById(R.id.Order);
         Authorization user = Authorization.Load(getContext().getApplicationContext());
         personalName.setText(user.getName());
         pesonalBirthday.setText(user.getBirthday());
@@ -153,6 +154,8 @@ public class personal extends Fragment {
                         number.getText().toString(), address.getText().toString(), card.getText().toString());
             }
         });
+
+
         accountExit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -179,6 +182,15 @@ public class personal extends Fragment {
                 startActivity(Enter);
             }
         });
+
+        Order_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent("com.study.pizzaapp.Orders");
+                startActivity(i);
+            }
+
+        });
         //ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,name); // в этом адаптере хранится массив
 
         //lvMain.setAdapter(adapter); // присваиваем списку массив
@@ -186,6 +198,12 @@ public class personal extends Fragment {
         // Inflate the layout for this fragment
         return rootView;
     }
+
+
+
+
+
+
     /*
     public void onSaveChangesClick(View view) {
         Authorization user = Authorization.Load(getContext().getApplicationContext());

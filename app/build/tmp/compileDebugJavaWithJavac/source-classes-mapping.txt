@@ -1,51 +1,58 @@
-com/study/pizzaapp/BuildConfig.java
- com.study.pizzaapp.BuildConfig
+com/study/pizzaapp/Authorization.java
+ com.study.pizzaapp.Authorization
+com/study/pizzaapp/ui/gallery/GalleryFragment.java
+ com.study.pizzaapp.ui.gallery.GalleryFragment
+ com.study.pizzaapp.ui.gallery.GalleryFragment$1
+com/study/pizzaapp/ui/login/LoggedInUserView.java
+ com.study.pizzaapp.ui.login.LoggedInUserView
 com/study/pizzaapp/ui/home/HomeViewModel.java
  com.study.pizzaapp.ui.home.HomeViewModel
-com/study/pizzaapp/data/model/LoggedInUser.java
- com.study.pizzaapp.data.model.LoggedInUser
+com/study/pizzaapp/ui/login/LoginViewModelFactory.java
+ com.study.pizzaapp.ui.login.LoginViewModelFactory
 com/study/pizzaapp/ui/home/HomeFragment.java
  com.study.pizzaapp.ui.home.HomeFragment
  com.study.pizzaapp.ui.home.HomeFragment$1
-com/study/pizzaapp/ui/login/LoginViewModelFactory.java
- com.study.pizzaapp.ui.login.LoginViewModelFactory
-com/study/pizzaapp/ui/slideshow/SlideshowFragment.java
- com.study.pizzaapp.ui.slideshow.SlideshowFragment
- com.study.pizzaapp.ui.slideshow.SlideshowFragment$1
-com/study/pizzaapp/ui/login/LoggedInUserView.java
- com.study.pizzaapp.ui.login.LoggedInUserView
+com/study/pizzaapp/ui/login/LoginResult.java
+ com.study.pizzaapp.ui.login.LoginResult
+com/study/pizzaapp/BuildConfig.java
+ com.study.pizzaapp.BuildConfig
+com/study/pizzaapp/data/model/LoggedInUser.java
+ com.study.pizzaapp.data.model.LoggedInUser
 com/study/pizzaapp/data/Result.java
  com.study.pizzaapp.data.Result
  com.study.pizzaapp.data.Result$1
  com.study.pizzaapp.data.Result$Error
  com.study.pizzaapp.data.Result$Success
-com/study/pizzaapp/ui/login/LoginResult.java
- com.study.pizzaapp.ui.login.LoginResult
 com/study/pizzaapp/ui/slideshow/SlideshowViewModel.java
  com.study.pizzaapp.ui.slideshow.SlideshowViewModel
 com/study/pizzaapp/ui/gallery/GalleryViewModel.java
  com.study.pizzaapp.ui.gallery.GalleryViewModel
-com/study/pizzaapp/ui/login/LoginFormState.java
- com.study.pizzaapp.ui.login.LoginFormState
-com/study/pizzaapp/ui/gallery/GalleryFragment.java
- com.study.pizzaapp.ui.gallery.GalleryFragment
- com.study.pizzaapp.ui.gallery.GalleryFragment$1
+com/study/pizzaapp/DBHelper.java
+ com.study.pizzaapp.DBHelper
 com/study/pizzaapp/data/LoginDataSource.java
  com.study.pizzaapp.data.LoginDataSource
+com/study/pizzaapp/ui/slideshow/SlideshowFragment.java
+ com.study.pizzaapp.ui.slideshow.SlideshowFragment
+ com.study.pizzaapp.ui.slideshow.SlideshowFragment$1
 com/study/pizzaapp/data/LoginRepository.java
  com.study.pizzaapp.data.LoginRepository
+com/study/pizzaapp/DataBase.java
+ com.study.pizzaapp.DataBase
+com/study/pizzaapp/ui/login/LoginFormState.java
+ com.study.pizzaapp.ui.login.LoginFormState
+com/study/pizzaapp/ZakazActivity.java
+ com.study.pizzaapp.ZakazActivity
+ com.study.pizzaapp.ZakazActivity$1
 com/study/pizzaapp/contacts.java
  com.study.pizzaapp.contacts
 com/study/pizzaapp/databinding/ActivityMainBinding.java
  com.study.pizzaapp.databinding.ActivityMainBinding
 com/study/pizzaapp/databinding/ActivityCheesPizzaBinding.java
  com.study.pizzaapp.databinding.ActivityCheesPizzaBinding
-com/study/pizzaapp/Chees_pizza.java
- com.study.pizzaapp.Chees_pizza
 com/study/pizzaapp/databinding/FragmentBasketBinding.java
  com.study.pizzaapp.databinding.FragmentBasketBinding
-com/study/pizzaapp/ui/login/LoginViewModel.java
- com.study.pizzaapp.ui.login.LoginViewModel
+com/study/pizzaapp/Enter_activity.java
+ com.study.pizzaapp.Enter_activity
 com/study/pizzaapp/Fresh_pizza.java
  com.study.pizzaapp.Fresh_pizza
 com/study/pizzaapp/cupons.java
@@ -67,27 +74,24 @@ com/study/pizzaapp/databinding/ActivityEnterBinding.java
  com.study.pizzaapp.databinding.ActivityEnterBinding
 com/study/pizzaapp/Four_season.java
  com.study.pizzaapp.Four_season
+com/study/pizzaapp/Orders.java
+ com.study.pizzaapp.Orders
 com/study/pizzaapp/databinding/FragmentPromotionsBinding.java
  com.study.pizzaapp.databinding.FragmentPromotionsBinding
 com/study/pizzaapp/databinding/ActivityZakazBinding.java
  com.study.pizzaapp.databinding.ActivityZakazBinding
-com/study/pizzaapp/ZakazActivity.java
- com.study.pizzaapp.ZakazActivity
- com.study.pizzaapp.ZakazActivity$1
+com/study/pizzaapp/RegisterWindow.java
+ com.study.pizzaapp.RegisterWindow
 com/study/pizzaapp/databinding/FragmentGalleryBinding.java
  com.study.pizzaapp.databinding.FragmentGalleryBinding
 com/study/pizzaapp/basket.java
  com.study.pizzaapp.basket
 com/study/pizzaapp/databinding/ActivityBasketBinding.java
  com.study.pizzaapp.databinding.ActivityBasketBinding
-com/study/pizzaapp/DataBase.java
- com.study.pizzaapp.DataBase
 com/study/pizzaapp/promotions.java
  com.study.pizzaapp.promotions
 com/study/pizzaapp/Mashroom_pizza.java
  com.study.pizzaapp.Mashroom_pizza
-com/study/pizzaapp/databinding/ActivityOrderBinding.java
- com.study.pizzaapp.databinding.ActivityOrderBinding
 com/study/pizzaapp/databinding/ActivityLoginBinding.java
  com.study.pizzaapp.databinding.ActivityLoginBinding
 com/study/pizzaapp/databinding/ActivityCarbonaraBinding.java
@@ -99,16 +103,17 @@ com/study/pizzaapp/ui/login/LoginActivity.java
  com.study.pizzaapp.ui.login.LoginActivity$3
  com.study.pizzaapp.ui.login.LoginActivity$4
  com.study.pizzaapp.ui.login.LoginActivity$5
-com/study/pizzaapp/DBHelper.java
- com.study.pizzaapp.DBHelper
 com/study/pizzaapp/databinding/ActivityRegisterWindowBinding.java
  com.study.pizzaapp.databinding.ActivityRegisterWindowBinding
 com/study/pizzaapp/databinding/FragmentCuponsBinding.java
  com.study.pizzaapp.databinding.FragmentCuponsBinding
 com/study/pizzaapp/databinding/NavHeaderMainBinding.java
  com.study.pizzaapp.databinding.NavHeaderMainBinding
-com/study/pizzaapp/Carbonara.java
- com.study.pizzaapp.Carbonara
+com/study/pizzaapp/personal.java
+ com.study.pizzaapp.personal
+ com.study.pizzaapp.personal$1
+ com.study.pizzaapp.personal$2
+ com.study.pizzaapp.personal$3
 com/study/pizzaapp/databinding/FragmentContactsBinding.java
  com.study.pizzaapp.databinding.FragmentContactsBinding
 com/study/pizzaapp/databinding/FragmentPersonalBinding.java
@@ -123,16 +128,14 @@ com/study/pizzaapp/databinding/AppBarMainBinding.java
  com.study.pizzaapp.databinding.AppBarMainBinding
 com/study/pizzaapp/databinding/ContentMainBinding.java
  com.study.pizzaapp.databinding.ContentMainBinding
-com/study/pizzaapp/RegisterWindow.java
- com.study.pizzaapp.RegisterWindow
-com/study/pizzaapp/Authorization.java
- com.study.pizzaapp.Authorization
-com/study/pizzaapp/Enter_activity.java
- com.study.pizzaapp.Enter_activity
+com/study/pizzaapp/Carbonara.java
+ com.study.pizzaapp.Carbonara
+com/study/pizzaapp/Chees_pizza.java
+ com.study.pizzaapp.Chees_pizza
+com/study/pizzaapp/ui/login/LoginViewModel.java
+ com.study.pizzaapp.ui.login.LoginViewModel
 com/study/pizzaapp/MainActivity.java
  com.study.pizzaapp.MainActivity
  com.study.pizzaapp.MainActivity$1
-com/study/pizzaapp/personal.java
- com.study.pizzaapp.personal
- com.study.pizzaapp.personal$1
- com.study.pizzaapp.personal$2
+com/study/pizzaapp/databinding/ActivityOrdersBinding.java
+ com.study.pizzaapp.databinding.ActivityOrdersBinding
