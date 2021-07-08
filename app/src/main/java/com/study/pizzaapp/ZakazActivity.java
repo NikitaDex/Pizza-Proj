@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -36,6 +37,11 @@ public class ZakazActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zakaz);
 
+        Authorization user = Authorization.Load(getApplicationContext());
+        EditText address = (EditText) findViewById(R.id.address);
+        if (user.haveAddress()) {
+            address.setText(user.getAddress());
+        }
         ArrayAdapter<String> DostavkaAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, dostavka); // адаптер, в котором хранится массив доставки
         DostavkaAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         Spinner spinner1 = (Spinner) findViewById(R.id.spinner1); // объявляем список
