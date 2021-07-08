@@ -38,4 +38,27 @@
         android:text="Сыр моцарелла, ветчина, ананас, сервелат, пепперони, Курица маринованая, пармезан, томаты, шампиньоны, томатный соус, сливочный соус, итальянские травы, лук зелёный"
         android:textColor="@color/black"
         android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="622dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="61dp"
+        android:background="@drawable/rounder"
+        android:onClick="carb_bask3"
+        android:text="Перейти в корзину"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
 </RelativeLayout>

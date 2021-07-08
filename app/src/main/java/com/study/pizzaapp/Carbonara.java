@@ -15,4 +15,8 @@ public class Carbonara extends AppCompatActivity {
     }
 
 
+    public void carb_bask(View view) {
+            Intent info = new Intent("com.study.pizzaapp.BasketActivity");
+            startActivity(info);
+    }
 }
