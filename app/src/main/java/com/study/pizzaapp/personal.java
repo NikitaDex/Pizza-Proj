@@ -172,7 +172,9 @@ public class personal extends Fragment {
                 }
 
                 Authorization user = Authorization.Load(getContext().getApplicationContext());
-                user.EraseData();
+                //user.EraseData();
+                user.setAuthorization(false);
+                user.Save();
                 mDBHelper.updateUser(user.getID(), email.getText().toString(),
                         number.getText().toString(), address.getText().toString(), card.getText().toString());
                 Intent Enter = new Intent("com.study.pizzaapp.Enter_activity");
@@ -186,22 +188,4 @@ public class personal extends Fragment {
         // Inflate the layout for this fragment
         return rootView;
     }
-    /*
-    public void onSaveChangesClick(View view) {
-        Authorization user = Authorization.Load(getContext().getApplicationContext());
-        if (address.getText().toString().length() != 0) {
-            user.setAddress(address.getText().toString());
-        }
-        if (email.getText().toString().length() != 0) {
-            user.setMail(email.getText().toString());
-        }
-        if (number.getText().toString().length() != 0) {
-            user.setPhoneNumber(number.getText().toString());
-        }
-        if (card.getText().toString().length() != 0) {
-            user.setCardNumber(card.getText().toString());
-        }
-        Intent Oformit = new Intent("com.study.pizzaapp.MainActivity");
-        startActivity(Oformit);
-    }*/
 }

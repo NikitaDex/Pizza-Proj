@@ -123,16 +123,16 @@ com/study/pizzaapp/databinding/AppBarMainBinding.java
  com.study.pizzaapp.databinding.AppBarMainBinding
 com/study/pizzaapp/databinding/ContentMainBinding.java
  com.study.pizzaapp.databinding.ContentMainBinding
-com/study/pizzaapp/RegisterWindow.java
- com.study.pizzaapp.RegisterWindow
-com/study/pizzaapp/Authorization.java
- com.study.pizzaapp.Authorization
-com/study/pizzaapp/Enter_activity.java
- com.study.pizzaapp.Enter_activity
-com/study/pizzaapp/MainActivity.java
- com.study.pizzaapp.MainActivity
- com.study.pizzaapp.MainActivity$1
 com/study/pizzaapp/personal.java
  com.study.pizzaapp.personal
  com.study.pizzaapp.personal$1
  com.study.pizzaapp.personal$2
+com/study/pizzaapp/Authorization.java
+ com.study.pizzaapp.Authorization
+com/study/pizzaapp/RegisterWindow.java
+ com.study.pizzaapp.RegisterWindow
+com/study/pizzaapp/MainActivity.java
+ com.study.pizzaapp.MainActivity
+ com.study.pizzaapp.MainActivity$1
+com/study/pizzaapp/Enter_activity.java
+ com.study.pizzaapp.Enter_activity
