@@ -3,6 +3,8 @@ package com.study.pizzaapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -16,12 +18,18 @@ import android.widget.AdapterView.OnItemSelectedListener;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import java.io.IOException;
+
 public class ZakazActivity extends AppCompatActivity {
 
     String[] dostavka = {"доставка", "самовывоз"}; // массив для доставки
     String[] oplata = {"карта", "наличные"}; // массив для оплаты
     String[] cupon = {"здесь подключат базу данных"}; // массив для купонов
     public TextView result; // объявила переменную с результатом
+
+    //////////////////////////
+    private DBHelper mDBHelper;
+    private SQLiteDatabase mDb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +80,21 @@ public class ZakazActivity extends AppCompatActivity {
 //            }
 //        });
 
+
+        mDBHelper = new DBHelper(this);
+
+        try {
+            mDBHelper.updateDataBase();
+        } catch (IOException mIOException) {
+            throw new Error("UnableToUpdateDatabase");
+        }
+
+        try {
+            mDb = mDBHelper.getWritableDatabase();
+        } catch (SQLException mSQLException) {
+            throw mSQLException;
+        }
+
     }
 
     public void OnOformitClick(View view) {
@@ -79,7 +102,7 @@ public class ZakazActivity extends AppCompatActivity {
         startActivity(Oformit);
 
 
-
+        mDBHelper.insertOrder(result.getText().toString());
 
 
     }

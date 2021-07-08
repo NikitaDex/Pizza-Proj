@@ -147,6 +147,32 @@ public class DBHelper extends SQLiteOpenHelper {
         db.updateWithOnConflict("Пользователи",cv,"ID="+ID,null,SQLiteDatabase.CONFLICT_REPLACE);
         db.close();
     }
+    public void insertOrder(String price){
+        SQLiteDatabase db=this.getWritableDatabase();
+        ContentValues cv=new ContentValues();
+        cv.put("Цена",price);
+        db.insertWithOnConflict("Заказы",null,cv,SQLiteDatabase.CONFLICT_REPLACE);
+        db.close();
+    }
+    public void deleteOrder(String ID){
+        SQLiteDatabase db=this.getWritableDatabase();
+        db.delete("Заказы","Цена =?",new String[]{ID});
+    }
+
+    public ArrayList<String> getPrices(){
+        ArrayList<String> prices=new ArrayList<>();
+        SQLiteDatabase db=this.getReadableDatabase();
+        Cursor cursor=db.query("Заказы",new String[]{"Цена"},null,null,null,null,null);
+        while (cursor.moveToNext()){
+            int index=cursor.getColumnIndex("Цена");
+            prices.add(cursor.getString(index));
+        }
+        cursor.close();
+        db.close();
+
+
+        return prices;
+    }
 
 //    public ArrayList<String> getMail(){
 //        ArrayList<String> arrayList;

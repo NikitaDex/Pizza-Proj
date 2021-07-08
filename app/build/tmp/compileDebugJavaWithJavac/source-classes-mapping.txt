@@ -91,15 +91,12 @@ com/study/pizzaapp/databinding/ActivityEnterBinding.java
  com.study.pizzaapp.databinding.ActivityEnterBinding
 com/study/pizzaapp/Orders.java
  com.study.pizzaapp.Orders
-com/study/pizzaapp/ZakazActivity.java
- com.study.pizzaapp.ZakazActivity
- com.study.pizzaapp.ZakazActivity$1
+com/study/pizzaapp/ui/home/HomeViewModel.java
+ com.study.pizzaapp.ui.home.HomeViewModel
 com/study/pizzaapp/basket.java
  com.study.pizzaapp.basket
 com/study/pizzaapp/data/LoginRepository.java
  com.study.pizzaapp.data.LoginRepository
-com/study/pizzaapp/DataBase.java
- com.study.pizzaapp.DataBase
 com/study/pizzaapp/ui/slideshow/SlideshowFragment.java
  com.study.pizzaapp.ui.slideshow.SlideshowFragment
  com.study.pizzaapp.ui.slideshow.SlideshowFragment$1
@@ -137,5 +134,6 @@ com/study/pizzaapp/ui/login/LoggedInUserView.java
  com.study.pizzaapp.ui.login.LoggedInUserView
 com/study/pizzaapp/RegisterWindow.java
  com.study.pizzaapp.RegisterWindow
-com/study/pizzaapp/ui/home/HomeViewModel.java
- com.study.pizzaapp.ui.home.HomeViewModel
+com/study/pizzaapp/ZakazActivity.java
+ com.study.pizzaapp.ZakazActivity
+ com.study.pizzaapp.ZakazActivity$1
