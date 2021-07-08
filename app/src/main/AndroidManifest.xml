@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaApp">
-        <activity android:name=".Orders">
+        <activity android:name=".Orders"
+            android:label="Мои заказы">
             <intent-filter>
                 <action android:name="com.study.pizzaapp.Orders" />
 

@@ -62,14 +62,10 @@ public class ZakazActivity extends AppCompatActivity {
     }
 
     public void OnOformitClick(View view) {
-        Intent Oformit = new Intent("com.study.pizzaapp.MainActivity");
+        Intent Oformit = new Intent("com.study.pizzaapp.Orders");
         startActivity(Oformit);
     }
 
 
-    public void try_btn(View view) {
-        Intent i = new Intent("com.study.pizzaapp.Orders");
-        startActivity(i);
 
-    }
 }
