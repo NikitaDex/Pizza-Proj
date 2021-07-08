@@ -7,10 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemSelectedListener;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class ZakazActivity extends AppCompatActivity {
 
@@ -59,10 +63,24 @@ public class ZakazActivity extends AppCompatActivity {
         result = (TextView)findViewById(R.id.result);
         result.setText(Integer.toString(BasketActivity.getResult() + 200));
 
+
+//        order_btn=findViewById(R.id.btn_oformit);
+//        order_btn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//            }
+//        });
+
     }
 
     public void OnOformitClick(View view) {
         Intent Oformit = new Intent("com.study.pizzaapp.MainActivity");
         startActivity(Oformit);
+
+
+
+
+
     }
 }
