@@ -31,6 +31,7 @@ public class ZakazActivity extends AppCompatActivity {
     //////////////////////////
     private DBHelper mDBHelper;
     private SQLiteDatabase mDb;
+    private EditText address;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +39,7 @@ public class ZakazActivity extends AppCompatActivity {
         setContentView(R.layout.activity_zakaz);
 
         Authorization user = Authorization.Load(getApplicationContext());
-        EditText address = (EditText) findViewById(R.id.address);
+        address = (EditText) findViewById(R.id.address);
         if (user.haveAddress()) {
             address.setText(user.getAddress());
         }
@@ -104,12 +105,19 @@ public class ZakazActivity extends AppCompatActivity {
     }
 
     public void OnOformitClick(View view) {
-        Intent Oformit = new Intent("com.study.pizzaapp.Orders");
-        startActivity(Oformit);
+        EditText time = (EditText) findViewById(R.id.time);
+        if (time.getText().toString().length() !=0 &
+                address.getText().toString().length() !=0) {
+            Authorization user = Authorization.Load(getApplicationContext());
+            if (!address.getText().toString().equals(user.getAddress())) {
+                user.setAddress(address.getText().toString());
+            }
+            Intent Oformit = new Intent("com.study.pizzaapp.Orders");
+            startActivity(Oformit);
 
 
-        mDBHelper.insertOrder(result.getText().toString());
-
+            mDBHelper.insertOrder(result.getText().toString());
+        }
 
     }
 
