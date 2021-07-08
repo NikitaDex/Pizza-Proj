@@ -16,24 +16,20 @@
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_cupons.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\raw.xml",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\raw.xml"
-    },
-    {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slideshow.xml",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_contacts.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_contacts.xml"
     },
     {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_fresh_pizza.xml",
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_fresh_pizza.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_contacts.xml",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_contacts.xml"
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slideshow.xml",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
     },
     {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_promotions.xml",

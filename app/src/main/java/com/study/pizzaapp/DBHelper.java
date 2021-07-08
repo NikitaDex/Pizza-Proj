@@ -19,7 +19,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private static String DB_NAME = "Пиццерия.db";
     private static String DB_PATH = "";
-    private static final int DB_VERSION = 9;
+    private static final int DB_VERSION = 10;
 
     private SQLiteDatabase mDataBase;
     private final Context mContext;

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\font\\montserrat.xml"
-    },
-    {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_basket.xml.flat",
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_basket.xml"
+    },
+    {
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat.xml.flat",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\font\\montserrat.xml"
     },
     {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ham_and_mushrooms.png.flat",
@@ -68,12 +68,12 @@
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cont_pizza.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_four_seasons.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\four_seasons.png"
-    },
-    {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_telegram12.png.flat",
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_telegram12.png"
+    },
+    {
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_four_seasons.png.flat",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\four_seasons.png"
     },
     {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_orders.xml.flat",
@@ -136,12 +136,12 @@
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pepperoni_fresh.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_slideshow.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
-    },
-    {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_slideshow.xml.flat",
+        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
     },
     {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_camera.xml.flat",
@@ -390,9 +390,5 @@
     {
         "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_contacts_pizza.png.flat",
         "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_contacts_pizza.png"
-    },
-    {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_raw.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\raw.xml"
     }
 ]
