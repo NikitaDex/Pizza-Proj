@@ -4,18 +4,16 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textOrder"
-        android:layout_width="270dp"
-        android:layout_height="48dp"
-        android:text="Hello World"
-        android:textAlignment="viewStart"
-        android:textSize="24sp" />
+        android:id="@+id/txt_price"
+        android:layout_width="316dp"
+        android:layout_height="51dp"
+        android:text="TextView" />
 
     <Button
-        android:id="@+id/delete_order"
-        android:layout_width="131dp"
+        android:id="@+id/cancel_order"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="0dp"
-        android:text="Отменить" />
+        android:text="Button" />
 </RelativeLayout>

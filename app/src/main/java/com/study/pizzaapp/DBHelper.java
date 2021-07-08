@@ -19,7 +19,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private static String DB_NAME = "Пиццерия.db";
     private static String DB_PATH = "";
-    private static final int DB_VERSION = 8;
+    private static final int DB_VERSION = 9;
 
     private SQLiteDatabase mDataBase;
     private final Context mContext;
@@ -150,7 +150,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public void insertOrder(String price){
         SQLiteDatabase db=this.getWritableDatabase();
         ContentValues cv=new ContentValues();
-        cv.put("Цена",price);
+        cv.put("Цена",price+" р.");
         db.insertWithOnConflict("Заказы",null,cv,SQLiteDatabase.CONFLICT_REPLACE);
         db.close();
     }
