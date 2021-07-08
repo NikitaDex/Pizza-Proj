@@ -101,7 +101,9 @@ public class Authorization implements Serializable {
     }
 
     public void setAuthorization(boolean isAuthorized) {
-        this.isAuthorized = isAuthorized;
+        Authorization user = Authorization.Load(context);
+        user.isAuthorized = isAuthorized;
+        user.Save();
     }
 
     //////////////////Проверка наличия поля/////////////////////

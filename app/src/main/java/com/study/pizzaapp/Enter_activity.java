@@ -61,7 +61,6 @@ public class Enter_activity extends AppCompatActivity {
         if (mail.getText().toString().equals(user.getMail()) &
                 password.getText().toString().equals(user.getPassword())) {
             user.setAuthorization(true);
-            user.Save();
             Intent Enter = new Intent("com.study.pizzaapp.MainActivity");
             startActivity(Enter);
         }

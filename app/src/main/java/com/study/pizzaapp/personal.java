@@ -159,25 +159,26 @@ public class personal extends Fragment  {
         accountExit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDBHelper = new DBHelper(getContext().getApplicationContext());
-                mDBHelper.getWritableDatabase();
+                //mDBHelper = new DBHelper(getContext().getApplicationContext());
+                //mDBHelper.getWritableDatabase();
 
-                try {
-                    mDBHelper.updateDataBase();
-                } catch (IOException mIOException) {
-                    throw new Error("UnableToUpdateDatabase");
-                }
+                //try {
+                //    mDBHelper.updateDataBase();
+                //} catch (IOException mIOException) {
+                //    throw new Error("UnableToUpdateDatabase");
+                //}
 
-                try {
-                    mDb = mDBHelper.getWritableDatabase();
-                } catch (SQLException mSQLException) {
-                    throw mSQLException;
-                }
+                //try {
+                //    mDb = mDBHelper.getWritableDatabase();
+                //} catch (SQLException mSQLException) {
+                //    throw mSQLException;
+                //}
 
                 Authorization user = Authorization.Load(getContext().getApplicationContext());
-                user.EraseData();
-                mDBHelper.updateUser(user.getID(), email.getText().toString(),
-                        number.getText().toString(), address.getText().toString(), card.getText().toString());
+                //user.EraseData();
+                user.setAuthorization(false);
+                //mDBHelper.updateUser(user.getID(), email.getText().toString(),
+                //        number.getText().toString(), address.getText().toString(), card.getText().toString());
                 Intent Enter = new Intent("com.study.pizzaapp.Enter_activity");
                 startActivity(Enter);
             }

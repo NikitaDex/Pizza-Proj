@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
 
 
-
         mDBHelper = new DBHelper(this);
 
         try {
