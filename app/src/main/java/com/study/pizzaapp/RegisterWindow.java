@@ -84,9 +84,9 @@ public class RegisterWindow extends AppCompatActivity {
                     "-",
                     birthday.getText().toString(),
                     mDBHelper.getLastUserID());
-            user.setAuthorization(true);
             user.Save();
-            user = Authorization.Load(getApplicationContext());
+            user.setAuthorization(true);
+            //user = Authorization.Load(getApplicationContext());
             Intent Enter = new Intent(this,MainActivity.class);
             startActivity(Enter);
 

@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         if (user.havePhoneNumber()) {
             user_phone.setText(user.getPhoneNumber());
         } else {
-            user_phone.setText("Номер телефона");
+            user_phone.setText("Телефон не указан");
         }
         return true;
     }

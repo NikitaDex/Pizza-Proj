@@ -43,8 +43,8 @@ public class Enter_activity extends AppCompatActivity {
                 throw mSQLException;
             }
         } else {
-            Intent Enter = new Intent(this,MainActivity.class);
-            startActivity(Enter);
+            Intent Main = new Intent(this,MainActivity.class);
+            startActivity(Main);
         }
     }
 
