@@ -19,7 +19,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private static String DB_NAME = "Пиццерия.db";
     private static String DB_PATH = "";
-    private static final int DB_VERSION = 12;
+    private static final int DB_VERSION = 15;
 
     private SQLiteDatabase mDataBase;
     private final Context mContext;
@@ -176,11 +176,40 @@ public class DBHelper extends SQLiteOpenHelper {
         return prices;
     }
 
-    public void deleteCupons(String ID){
+    public void insertCupon(String cod){
         SQLiteDatabase db=this.getWritableDatabase();
-        db.delete("Купоны","Купон = ?",new String[]{ID});
+        ContentValues cv=new ContentValues();
+
+        if(cod.equals("0505")){
+            cv.put("Купон","Скидка 5%");
+            cv.put("Скидка","5");
+            db.insertWithOnConflict("Купоны",null,cv,SQLiteDatabase.CONFLICT_REPLACE);
+        }else if(cod.equals("228")){
+            cv.put("Купон","Скидка 10%");
+            cv.put("Скидка","10");
+            db.insertWithOnConflict("Купоны",null,cv,SQLiteDatabase.CONFLICT_REPLACE);
+        }else if(cod.equals("Хочу скидку")){
+            cv.put("Купон","Скидка 15%");
+            cv.put("Скидка","15");
+            db.insertWithOnConflict("Купоны",null,cv,SQLiteDatabase.CONFLICT_REPLACE);
+        }else if(cod.equals("Проекция бизнеса")){
+            cv.put("Купон","Скидка 20%");
+            cv.put("Скидка","20");
+            db.insertWithOnConflict("Купоны",null,cv,SQLiteDatabase.CONFLICT_REPLACE);
+        }else if(cod.equals("3301")){
+            cv.put("Купон","Скидка 100%");
+            cv.put("Скидка","100");
+            db.insertWithOnConflict("Купоны",null,cv,SQLiteDatabase.CONFLICT_REPLACE);
+        }
+    }
+
+    public void deleteCupons(String ID){
+        if(!ID.equals("Без купона")) {
+            SQLiteDatabase db = this.getWritableDatabase();
+            db.delete("Купоны", "Купон = ?", new String[]{ID});
 //        String query=String.format("DELETE FROM Заказы WHERE Цена = "+ID);
 //        db.execSQL(query);
+        }
     }
 
     public ArrayList<String> getCupons(){

@@ -46,10 +46,11 @@
         android:id="@+id/btn_actv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_marginHorizontal="5sp"
         android:backgroundTint="@color/colorBtn"
-        android:text="@string/couponsB"
-        android:layout_alignParentBottom="true"/>
+        android:onClick="onActive"
+        android:text="@string/couponsB" />
 
     <ListView
         android:id="@+id/listView"

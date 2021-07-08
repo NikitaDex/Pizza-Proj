@@ -10,6 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import java.io.IOException;
@@ -74,6 +76,8 @@ public class cupons extends Fragment {
     ArrayAdapter<String> adapter;
     ListView orderList;
 
+    EditText cod;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -92,35 +96,44 @@ public class cupons extends Fragment {
         }
 
 
+
         View rootView = inflater.inflate(R.layout.fragment_cupons, container, false); // это чтобы отображалось
+
+        cod=(EditText)rootView.findViewById(R.id.cuponsPlain);
 
         orderList = (ListView) rootView.findViewById(R.id.listView); // объявляем поле для списка
 
 
-       //  new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,name); // в этом адаптере хранится массив
+        updateAdapter();
 
-
-       // lvMain.setAdapter(adapter); // присваиваем списку массив
-
-        // Inflate the layout for this fragment
-
-        ArrayList<String> prices=mDBHelper.getCupons();
-
-//        if(adapter==null){
-//            adapter = new ArrayAdapter<>(getContext(),
-//                    android.R.layout.simple_list_item_1, R.id.listView, prices);
-//            orderList.setAdapter(adapter);
-//        }else{
-//            adapter.clear();
-//            adapter.addAll(prices);
-//            adapter.notifyDataSetChanged();
-//        }
-       // updateAdapter();
+        Button btn_actv= (Button)rootView.findViewById(R.id.btn_actv);
+        btn_actv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mDBHelper.insertCupon(cod.getText().toString());
+                updateAdapter();
+                cod.setText("");
+            }
+        });
 
         return rootView;
     }
-    public void updateAdapter(){
 
+    public void updateAdapter() {
+        ArrayList<String> cupons=mDBHelper.getCupons();
+
+
+        if(adapter==null){
+            adapter =  new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,cupons);
+            orderList.setAdapter(adapter);
+        }else{
+            adapter.clear();
+            adapter.addAll(cupons);
+            adapter.notifyDataSetChanged();
+        }
+    }
+
+    public void onActive(View view){
 
 
     }
