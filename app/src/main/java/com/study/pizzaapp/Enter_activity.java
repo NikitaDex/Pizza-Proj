@@ -57,11 +57,11 @@ public class Enter_activity extends AppCompatActivity {
     public void enter_btn(View view) {
         Authorization user = Authorization.Load(getApplicationContext());
         user.printData();
-        //System.out.println(user.getMail() + " " + user.getPassword());
+        System.out.println(user.getMail() + " " + user.getPassword());
         if (mail.getText().toString().equals(user.getMail()) &
                 password.getText().toString().equals(user.getPassword())) {
             user.setAuthorization(true);
-            Intent Enter = new Intent("com.study.pizzaapp.MainActivity");
+            Intent Enter = new Intent(this,MainActivity.class);
             startActivity(Enter);
         }
     }

@@ -87,8 +87,8 @@ public class RegisterWindow extends AppCompatActivity {
             user.setAuthorization(true);
             user.Save();
             user = Authorization.Load(getApplicationContext());
-            Intent MainActivity = new Intent("com.study.pizzaapp.MainActivity");
-            startActivity(MainActivity);
+            Intent Enter = new Intent(this,MainActivity.class);
+            startActivity(Enter);
 
         }
     }
