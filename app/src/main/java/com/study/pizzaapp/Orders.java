@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -40,14 +41,35 @@ public class Orders extends AppCompatActivity {
             throw mSQLException;
         }
 
-
         orderList=(ListView)findViewById(R.id.order_list);
+
+        updateAdapter();
+    }
+
+
+    ArrayAdapter<String> adapter;
+    public void updateAdapter(){
         ArrayList<String> prices=mDBHelper.getPrices();
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
-                R.layout.row, R.id.txt_price, prices);
+        if(adapter==null){
+            adapter = new ArrayAdapter<>(this,
+                    R.layout.row, R.id.txt_price, prices);
+            orderList.setAdapter(adapter);
+        }else{
+            adapter.clear();
+            adapter.addAll(prices);
+            adapter.notifyDataSetChanged();
+        }
 
-        orderList.setAdapter(adapter);
+    }
+
+    public void deleteTask(View view){
+        TextView txt_id=(TextView)findViewById(R.id.txt_price);
+        String price=String.valueOf(txt_id.getText());
+        mDBHelper.deleteOrder(price);
+
+        updateAdapter();
+
     }
 
 }

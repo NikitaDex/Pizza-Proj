@@ -19,7 +19,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private static String DB_NAME = "Пиццерия.db";
     private static String DB_PATH = "";
-    private static final int DB_VERSION = 10;
+    private static final int DB_VERSION = 11;
 
     private SQLiteDatabase mDataBase;
     private final Context mContext;
@@ -156,7 +156,9 @@ public class DBHelper extends SQLiteOpenHelper {
     }
     public void deleteOrder(String ID){
         SQLiteDatabase db=this.getWritableDatabase();
-        db.delete("Заказы","Цена =?",new String[]{ID});
+        db.delete("Заказы","Цена = ?",new String[]{ID});
+//        String query=String.format("DELETE FROM Заказы WHERE Цена = "+ID);
+//        db.execSQL(query);
     }
 
     public ArrayList<String> getPrices(){
@@ -186,6 +188,15 @@ public class DBHelper extends SQLiteOpenHelper {
         String lastID="";
         SQLiteDatabase db=this.getReadableDatabase();
         Cursor cursor = db.query("Пользователи",new String[]{"ID"},null,null,null,null,null);
+        cursor.moveToFirst();
+        int index=cursor.getColumnIndex("ID");
+        lastID=cursor.getString(index);
+        return lastID;
+    }
+    public String getLastOrderID(){
+        String lastID="";
+        SQLiteDatabase db=this.getReadableDatabase();
+        Cursor cursor = db.query("Заказы",new String[]{"ID"},null,null,null,null,null);
         cursor.moveToFirst();
         int index=cursor.getColumnIndex("ID");
         lastID=cursor.getString(index);
