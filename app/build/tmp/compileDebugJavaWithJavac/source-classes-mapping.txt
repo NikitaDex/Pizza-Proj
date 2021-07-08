@@ -6,8 +6,9 @@ com/study/pizzaapp/databinding/ActivityMainBinding.java
  com.study.pizzaapp.databinding.ActivityMainBinding
 com/study/pizzaapp/databinding/ActivityCheesPizzaBinding.java
  com.study.pizzaapp.databinding.ActivityCheesPizzaBinding
-com/study/pizzaapp/Enter_activity.java
- com.study.pizzaapp.Enter_activity
+com/study/pizzaapp/ZakazActivity.java
+ com.study.pizzaapp.ZakazActivity
+ com.study.pizzaapp.ZakazActivity$1
 com/study/pizzaapp/Fresh_pizza.java
  com.study.pizzaapp.Fresh_pizza
 com/study/pizzaapp/databinding/ActivityFreshPizzaBinding.java
@@ -134,6 +135,5 @@ com/study/pizzaapp/ui/login/LoggedInUserView.java
  com.study.pizzaapp.ui.login.LoggedInUserView
 com/study/pizzaapp/RegisterWindow.java
  com.study.pizzaapp.RegisterWindow
-com/study/pizzaapp/ZakazActivity.java
- com.study.pizzaapp.ZakazActivity
- com.study.pizzaapp.ZakazActivity$1
+com/study/pizzaapp/Enter_activity.java
+ com.study.pizzaapp.Enter_activity

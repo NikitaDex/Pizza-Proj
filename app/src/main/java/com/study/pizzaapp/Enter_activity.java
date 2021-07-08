@@ -21,9 +21,9 @@ public class Enter_activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         Authorization user = Authorization.Load(getApplicationContext());
         if (!user.isAuthorized()) {
-            super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_enter);
             mail = (EditText) findViewById(R.id.username1);
             password = (EditText) findViewById(R.id.password1);
@@ -43,8 +43,8 @@ public class Enter_activity extends AppCompatActivity {
                 throw mSQLException;
             }
         } else {
-            Intent Main = new Intent("com.study.pizzaapp.MainActivity");
-            startActivity(Main);
+            Intent Enter = new Intent(this,MainActivity.class);
+            startActivity(Enter);
         }
     }
 
