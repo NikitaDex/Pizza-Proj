@@ -72,4 +72,8 @@ public class Orders extends AppCompatActivity {
 
     }
 
+    public void go_home(View view) {
+        Intent Enter = new Intent(this,MainActivity.class);
+        startActivity(Enter);
+    }
 }

@@ -1,394 +1,394 @@
 [
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\font\\montserrat.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_coupons.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_coupons.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_basket.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_basket.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ham_and_mushrooms.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ham_and_mushrooms.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_promotions.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_promotions.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_telegram1.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_telegram1.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mashroom_pizza.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_mashroom_pizza.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_telegram12_round.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_telegram12_round.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_telegram12.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_telegram12.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cheese.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\cheese.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_email.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\font\\montserrat.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cont_pizza.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cont_pizza.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_telegram12_round.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_telegram12_round.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_bold.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\font\\montserrat_bold.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_whatsapp.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_whatsapp.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_telegram12_foreground.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_telegram12_foreground.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_gallery.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contacts.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_contacts.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_telegram12.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_telegram12.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_contacts_pizza.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_contacts_pizza.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_contacts_pizza.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_contacts_pizza.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_telegram12_round.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_telegram12_round.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_basket.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_basket.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cont_pizza.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cont_pizza.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_four_seasons.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\four_seasons.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_carbonara.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\carbonara.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_telegram12.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_telegram12.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_person.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_orders.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_orders.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_spoon.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_spoon.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza4.jpg.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pizza4.jpg"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_bold.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\font\\montserrat_bold.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cont_pizza_round.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cont_pizza_round.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cont_pizza.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cont_pizza.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_contacts_pizza.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_contacts_pizza.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fresh_pizza.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_fresh_pizza.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cont_pizza.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cont_pizza.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_four_season.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_four_season.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_web.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_web.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_contacts_pizza.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_contacts_pizza.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza4.jpg.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pizza4.jpg"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cont_pizza.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cont_pizza.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_telegram12_round.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_telegram12_round.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_skidka_1_photo.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\skidka_1_photo.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_enter.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_enter.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chees_pizza.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_chees_pizza.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_telegram12.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_telegram12.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_zakaz.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_zakaz.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_telegram12_round.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_telegram12_round.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_row.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\row.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pepperoni_fresh.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pepperoni_fresh.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_promotions.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_promotions.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_slideshow.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_camera.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_contacts_pizza.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_contacts_pizza.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza1.jpg.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pizza1.jpg"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_cupons.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_cupons.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza1.jpg.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pizza1.jpg"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_coupons.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_coupons.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_contacts.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_contacts.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_telegram12.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_telegram12.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cont_pizza.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_cont_pizza.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_contacts_pizza.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_contacts_pizza.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_four_season.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_four_season.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_telegram12.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_telegram12.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fresh_pizza.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_fresh_pizza.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_cont_pizza_round.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cont_pizza_round.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_personal.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_personal.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ham_and_mushrooms.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ham_and_mushrooms.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cont_pizza.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_cont_pizza.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_skidka_2_photo.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\skidka_2_photo.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_telegram12.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_telegram12.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_promotions.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_promotions.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cont_pizza.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cont_pizza.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_telegram12.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_telegram12.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_personal.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_personal.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza2.jpg.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pizza2.jpg"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_telegram12_round.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_telegram12_round.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza2.jpg.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pizza2.jpg"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chees_pizza.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_chees_pizza.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_telegram12_round.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_telegram12_round.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_zakaz.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_zakaz.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_orders.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_orders.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_promotions.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_promotions.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_enter.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_enter.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_slideshow.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cont_pizza_round.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cont_pizza_round.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_window.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_register_window.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_telegram.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_telegram.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza3.jpg.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pizza3.jpg"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_telegram12_round.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_telegram12_round.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_telegram12_foreground.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_telegram12_foreground.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_gallery.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mashroom_pizza.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_mashroom_pizza.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cont_pizza_round.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_cont_pizza_round.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cont_pizza_round.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cont_pizza_round.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_telegram12.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_telegram12.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_carbonara.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_carbonara.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_basket.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_basket.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_coupon.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_coupon.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza3.jpg.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pizza3.jpg"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cont_pizza_round.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cont_pizza_round.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_four_seasons.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\four_seasons.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_telegram12_round.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_telegram12_round.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_gallery.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounder.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\rounder.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_skidka_1_photo.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\skidka_1_photo.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_home_24.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_baseline_home_24.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_carbonara.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_carbonara.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cont_pizza_round.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_cont_pizza_round.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_window.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_register_window.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_telegram12.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_telegram12.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_basket.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_basket.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vk.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_vk.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cont_pizza_round.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cont_pizza_round.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_telegram12_round.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_telegram12_round.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_basket.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_basket.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_cont_pizza.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cont_pizza.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_web.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_web.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_whatsapp.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_whatsapp.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_telegram12_round.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_telegram12_round.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_baseline_home_24.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_cont_pizza_round.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cont_pizza_round.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pepperoni_fresh.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pepperoni_fresh.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_telegram12.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_telegram12.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_email.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza5.jpg.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pizza5.jpg"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounder.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\rounder.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_telegram12_round.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_telegram12_round.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_row.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\row.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vk.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_vk.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_basket.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_basket.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_telegram.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_telegram.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contacts.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_contacts.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_carbonara.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\carbonara.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_telegram1.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_telegram1.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_contacts.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_contacts.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_cont_pizza.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cont_pizza.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cont_pizza_round.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cont_pizza_round.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cont_pizza.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_cont_pizza.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_contacts_pizza.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_contacts_pizza.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_spoon.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_spoon.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cont_pizza_round.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_cont_pizza_round.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_contacts_pizza.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_contacts_pizza.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_cupons.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\layout\\fragment_cupons.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_telegram12.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_telegram12.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_skidka_2_photo.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\skidka_2_photo.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cheese.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\cheese.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_contacts_pizza.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_contacts_pizza.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cont_pizza_round.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_cont_pizza_round.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza5.jpg.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\pizza5.jpg"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_person.xml"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cont_pizza.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-mdpi\\ic_cont_pizza.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_coupon.xml.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\drawable\\ic_coupon.xml"
     },
     {
-        "merged": "D:\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_contacts_pizza.png.flat",
-        "source": "D:\\Pizza-Proj\\app\\src\\main\\res\\mipmap-hdpi\\ic_contacts_pizza.png"
+        "merged": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Nikita\\Desktop\\Pizza-Proj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     }
 ]

@@ -1,5 +1,8 @@
 package com.study.pizzaapp;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
+import android.content.Context;
 import android.content.Intent;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
@@ -201,5 +204,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
+    public void copytext(View view) {
+        ClipboardManager clipboard = (ClipboardManager)
+                getSystemService(Context.CLIPBOARD_SERVICE);
+    }
 }
