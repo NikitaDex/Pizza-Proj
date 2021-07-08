@@ -19,7 +19,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     private static String DB_NAME = "Пиццерия.db";
     private static String DB_PATH = "";
-    private static final int DB_VERSION = 11;
+    private static final int DB_VERSION = 12;
 
     private SQLiteDatabase mDataBase;
     private final Context mContext;
@@ -174,6 +174,28 @@ public class DBHelper extends SQLiteOpenHelper {
 
 
         return prices;
+    }
+
+    public void deleteCupons(String ID){
+        SQLiteDatabase db=this.getWritableDatabase();
+        db.delete("Купоны","Купон = ?",new String[]{ID});
+//        String query=String.format("DELETE FROM Заказы WHERE Цена = "+ID);
+//        db.execSQL(query);
+    }
+
+    public ArrayList<String> getCupons(){
+        ArrayList<String> cupons=new ArrayList<>();
+        SQLiteDatabase db=this.getReadableDatabase();
+        Cursor cursor=db.query("Купоны",new String[]{"Купон"},null,null,null,null,null);
+        while (cursor.moveToNext()){
+            int index=cursor.getColumnIndex("Купон");
+            cupons.add(cursor.getString(index));
+        }
+        cursor.close();
+        db.close();
+
+
+        return cupons;
     }
 
 //    public ArrayList<String> getMail(){

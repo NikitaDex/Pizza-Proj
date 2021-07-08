@@ -156,8 +156,8 @@
 
         <TextView
             android:id="@+id/personalName"
-            android:layout_width="103dp"
-            android:layout_height="37dp"
+            android:layout_width="390dp"
+            android:layout_height="45dp"
             android:text="ФИО"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -170,8 +170,8 @@
 
         <TextView
             android:id="@+id/pesonalBirthday"
-            android:layout_width="156dp"
-            android:layout_height="54dp"
+            android:layout_width="387dp"
+            android:layout_height="51dp"
             android:text="Дата рождения"
             android:textColor="@color/black"
             android:textSize="20sp"

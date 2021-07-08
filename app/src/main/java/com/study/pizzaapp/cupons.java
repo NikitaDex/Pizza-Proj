@@ -1,5 +1,7 @@
 package com.study.pizzaapp;
 
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -9,6 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import java.io.IOException;
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -63,18 +68,60 @@ public class cupons extends Fragment {
 
     }
 
+    private DBHelper mDBHelper;
+    private SQLiteDatabase mDb;
+
+    ArrayAdapter<String> adapter;
+    ListView orderList;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        mDBHelper = new DBHelper(getContext().getApplicationContext());
+
+        try {
+            mDBHelper.updateDataBase();
+        } catch (IOException mIOException) {
+            throw new Error("UnableToUpdateDatabase");
+        }
+
+        try {
+            mDb = mDBHelper.getWritableDatabase();
+        } catch (SQLException mSQLException) {
+            throw mSQLException;
+        }
+
+
         View rootView = inflater.inflate(R.layout.fragment_cupons, container, false); // это чтобы отображалось
 
-        ListView lvMain = (ListView) rootView.findViewById(R.id.listView); // объявляем поле для списка
+        orderList = (ListView) rootView.findViewById(R.id.listView); // объявляем поле для списка
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,name); // в этом адаптере хранится массив
 
-        lvMain.setAdapter(adapter); // присваиваем списку массив
+       //  new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1,name); // в этом адаптере хранится массив
+
+
+       // lvMain.setAdapter(adapter); // присваиваем списку массив
 
         // Inflate the layout for this fragment
+
+        ArrayList<String> prices=mDBHelper.getCupons();
+
+//        if(adapter==null){
+//            adapter = new ArrayAdapter<>(getContext(),
+//                    android.R.layout.simple_list_item_1, R.id.listView, prices);
+//            orderList.setAdapter(adapter);
+//        }else{
+//            adapter.clear();
+//            adapter.addAll(prices);
+//            adapter.notifyDataSetChanged();
+//        }
+       // updateAdapter();
+
         return rootView;
+    }
+    public void updateAdapter(){
+
+
+
     }
 }
